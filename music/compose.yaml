@@ -1,0 +1,56 @@
+erservices:
+  lidarr:
+    image: lscr.io/linuxserver/lidarr:latest
+    container_name: lidarr
+
+    environment:
+      - PUID=502
+      - PGID=20
+      - TZ=Asia/Shanghai
+
+    volumes:
+      - /Volumes/Nexus/Documents/Docker/music/Lidarr/config:/config
+      - /Volumes/Nexus/Documents/Brew/Navidrome/music:/music
+      - /Volumes/Nexus/Documents/Docker/music/Lidarr/downloads:/downloads
+
+    ports:
+      - "8686:8686"
+    
+    restart: always
+
+
+  prowlarr:
+    image: lscr.io/linuxserver/prowlarr:latest
+    container_name: prowlarr
+
+    environment:
+      - PUID=502
+      - PGID=20
+      - TZ=Asia/Shanghai
+
+    volumes:
+      - /Volumes/Nexus/Documents/Docker/music/Prowlarr/config:/config
+
+    ports:
+      - 9696:9696
+
+    restart: always
+
+
+  picard:
+    image: jlesage/musicbrainz-picard:latest
+    container_name: picard
+    
+    environment:
+      - PUID=502
+      - PGID=20
+      - TZ=Asia/Shanghai
+    
+    volumes:
+      - /Volumes/Nexus/Documents/Docker/music/Picard/config:/config
+      - /Volumes/Nexus/Documents/Brew/Navidrome/music:/storage
+
+    ports:
+      - 5800:5800
+
+    restart: always

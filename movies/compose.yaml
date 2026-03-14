@@ -11,7 +11,8 @@ services:
       - TZ=Asia/Shanghai
       - SUPERUSER=admin
       - SUPERUSER_PASSWORD=admin
-  
+      - AUTO_UPDATE_MODE=false 
+ 
     volumes:
       - /Volumes/Nexus/Documents/Docker/movie/moviepilot/config:/config
       - /Volumes/Nexus/Documents/Docker/movie/movies:/media

@@ -1,6 +1,6 @@
-erservices:
+services:
   lidarr:
-    image: lscr.io/linuxserver/lidarr:latest
+    image: linuxserver/lidarr:latest
     container_name: lidarr
 
     environment:
@@ -36,6 +36,24 @@ erservices:
 
     restart: always
 
+
+  musictag:
+    image: xhongc/music_tag_web:latest
+    container_name: musictag
+ 
+    environment:
+      - PUID=502
+      - PGID=20
+      - TZ=Asia/Shanghai
+
+    volumes:
+      - /Volumes/Nexus/Documents/Docker/music/musictag/data:/app/data
+      - /Volumes/Nexus/Documents/Brew/Navidrome/music:/app/media
+
+    ports:
+      - 8002:8002
+
+    restart: always
 
   picard:
     image: jlesage/musicbrainz-picard:latest

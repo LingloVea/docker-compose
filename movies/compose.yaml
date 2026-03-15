@@ -10,9 +10,7 @@ services:
       - PGID= 20
       - TZ=Asia/Shanghai
       - SUPERUSER= admin
-      - SUPERUSER_PASSWORD= moviepilot.1231
       - MOVIEPILOT_AUTO_UPDATE=false 
-      - GITHUB_PROXY=https://ghproxy.com/
  
     volumes:
       - /Volumes/Nexus/Documents/Docker/movie/moviepilot/config:/config

@@ -13,9 +13,7 @@ services:
     volumes:
       - ./config.yaml:/app/config.yaml
 
-    command: 
-      --config /app/config.yaml
-      --port 4000
+    command:  --config /app/config.yaml --port 4000
 
     restart: always
 

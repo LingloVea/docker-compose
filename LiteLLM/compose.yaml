@@ -1,16 +1,21 @@
 services:
-  open-webui:
-    image: open-webui
-    container_name: open-webui
-
+  litellm: 
+    image: litellm
+    container_name: litellm
+    platform: linux/arm64
+    
     ports:
-      - "3000:8080"
+      - "4000:4000"
+
+    env_file:
+      - .env
 
     volumes:
-      - /Volumes/Nexus/Documents/Docker/OpenWebui/data:/app/backend/data
+      - ./config.yaml:/app/config.yaml
 
-    environment:
-      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+    command: 
+      --config /app/config.yaml
+      --port 4000
 
     restart: always
 

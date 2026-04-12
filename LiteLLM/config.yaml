@@ -1,0 +1,6 @@
+model_list:
+  - model_name: step
+    litellm_params:
+      model: stepfun-ai/step-3.5-flash
+      api_key: NVIDIA_API_KEY
+      api_base: https://integrate.api.nvidia.com/v1

@@ -1,6 +1,9 @@
 model_list:
-  - model_name: step
+  - model_name: claude
     litellm_params:
-      model: stepfun-ai/step-3.5-flash
-      api_key: NVIDIA_API_KEY
+      model: nvidia_nim/minimaxai/minimax-m2.7
+      api_key: os.environ/NVIDIA_API_KEY
       api_base: https://integrate.api.nvidia.com/v1
+
+litellm_settings:
+  drop_params: true

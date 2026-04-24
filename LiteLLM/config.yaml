@@ -1,9 +1,0 @@
-model_list:
-  - model_name: claude
-    litellm_params:
-      model: nvidia_nim/google/gemma-4-31b-it
-      api_key: os.environ/NVIDIA_API_KEY
-      api_base: https://integrate.api.nvidia.com/v1
-
-litellm_settings:
-  drop_params: true

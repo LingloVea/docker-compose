@@ -1,0 +1,15 @@
+model_list:
+  - model_name: claude
+    litellm_params:
+      model: nvidia_nim/deepseek-ai/deepseek-v4-pro
+      api_key: os.environ/NVIDIA_NIM_API_KEY
+      api_base: os.environ/NVIDIA_NIM_API_BASE
+  - model_name: deepseek
+    litellm_params:
+      model: nvidia_nim/deepseek-ai/deepseek-v4-pro
+      api_key: os.environ/NVIDIA_NIM_API_KEY
+      api_base: os.environ/NVIDIA_NIM_API_BASE
+
+litellm_settings:
+  drop_params: true
+  set_verbose: true

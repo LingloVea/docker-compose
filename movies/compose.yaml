@@ -6,12 +6,12 @@ services:
     tty: true
 
     environment:
-      - PUID=502
-      - PGID=20
+      - PUID= 502
+      - PGID= 20
       - TZ=Asia/Shanghai
-      - SUPERUSER=admin
-      - SUPERUSER_PASSWORD=admin
-  
+      - SUPERUSER= admin
+      - MOVIEPILOT_AUTO_UPDATE=false 
+ 
     volumes:
       - /Volumes/Nexus/Documents/Docker/movie/moviepilot/config:/config
       - /Volumes/Nexus/Documents/Docker/movie/movies:/media

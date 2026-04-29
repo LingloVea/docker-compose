@@ -1,0 +1,16 @@
+services:
+  litellm:
+    image: ghcr.io/berriai/litellm:main-stable
+    container_name: litellm
+    platform: linux/arm64
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./config.yaml:/app/config.yaml
+    env_file:
+      - .env
+    environment:
+      NVIDIA_NIM_API_KEY: ${NVIDIA_NIM_API_KEY}
+      NVIDIA_NIM_API_BASE: ${NVIDIA_NIM_API_BASE}
+    command: --config /app/config.yaml --port 4000
+    restart: always

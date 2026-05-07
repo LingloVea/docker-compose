@@ -12,5 +12,7 @@ services:
     environment:
       NVIDIA_NIM_API_KEY: ${NVIDIA_NIM_API_KEY}
       NVIDIA_NIM_API_BASE: ${NVIDIA_NIM_API_BASE}
+      OPEN_API_KEY: ${OPEN_API_KEY}
+      OPEN_API_BASE: ${OPEN_API_BASE}
     command: --config /app/config.yaml --port 4000
     restart: always

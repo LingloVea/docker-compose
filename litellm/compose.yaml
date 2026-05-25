@@ -23,11 +23,8 @@ services:
       NVIDIA_NIM_API_BASE: ${NVIDIA_NIM_API_BASE}
       OPEN_API_KEY: ${OPEN_API_KEY}
       OPEN_API_BASE: ${OPEN_API_BASE}
-<<<<<<< HEAD
-=======
       REDIS_HOST: redis
       REDIS_PORT: 6379
->>>>>>> evolve
     command: --config /app/config.yaml --port 4000
     restart: always
     depends_on:

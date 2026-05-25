@@ -1,4 +1,13 @@
 services:
+  redis:
+    image: arm64v8/redis:7-alpine
+    container_name: litellm-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    restart: always
+
   litellm:
     image: ghcr.io/berriai/litellm:main-stable
     container_name: litellm
@@ -14,5 +23,15 @@ services:
       NVIDIA_NIM_API_BASE: ${NVIDIA_NIM_API_BASE}
       OPEN_API_KEY: ${OPEN_API_KEY}
       OPEN_API_BASE: ${OPEN_API_BASE}
+<<<<<<< HEAD
+=======
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+>>>>>>> evolve
     command: --config /app/config.yaml --port 4000
     restart: always
+    depends_on:
+      - redis
+
+volumes:
+  redis-data:

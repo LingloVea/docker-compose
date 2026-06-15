@@ -1,0 +1,51 @@
+model_list: []
+
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY
+  store_model_in_db: true
+  database_url: "os.environ/DATABASE_URL"
+
+litellm_settings:
+  drop_params: true
+
+guardrails:
+  # 输入：注入/越狱检测
+  - guardrail_name: "llama-guard-input"
+    litellm_params:
+      guardrail: "llamaguard"
+      mode: "pre_call"                        
+      llamaguard_model_name: "nvidia_nim/meta/llama-guard-4-12b"  
+      api_base: os.environ/NVIDIA_NIM_API_BASE
+      api_key: os.environ/NVIDIA_NIM_API_KEY
+      on_fail: "log"
+
+  # 输入：PII 脱敏（使用默认识别规则）
+  - guardrail_name: "pii-mask-input"
+    litellm_params:
+      guardrail: "presidio"
+      mode: "pre_call"
+      on_fail: "log"
+
+  # 输出：注入/毒性检测
+  - guardrail_name: "llama-guard-output"
+    litellm_params:
+      guardrail: "llamaguard"
+      mode: "post_call"                          # 输入检测（也可加 post_call）
+      llamaguard_model_name: "nvidia_nim/meta/llama-guard-4-12b"   # 模型名称，按 NIM 实际填写
+      api_base: os.environ/NVIDIA_NIM_API_BASE  # NIM 端点
+      api_key: os.environ/NVIDIA_NIM_API_KEY
+      on_fail: "log"
+
+  # 输出：PII 脱敏
+  - guardrail_name: "pii-mask-output"
+    litellm_params:
+      guardrail: "presidio"
+      mode: "post_call"
+      on_fail: "log"
+
+  # 输出：清除泄露的 API Key
+  - guardrail_name: "hide-secrets"
+    litellm_params:
+      guardrail: "hide_secrets"
+      mode: "post_call"
+      on_fail: "log"

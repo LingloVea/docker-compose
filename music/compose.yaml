@@ -15,8 +15,15 @@ services:
 
     ports:
       - "8686:8686"
-    
+
     restart: always
+
+    labels:
+      - homepage.group=媒体 / 影音
+      - homepage.name=Lidarr
+      - homepage.icon=lidarr.png
+      - homepage.href=http://lidarr.music.orb.local/
+      - homepage.description=音乐库自动化
 
 
   prowlarr:
@@ -35,6 +42,13 @@ services:
       - 9696:9696
 
     restart: always
+
+    labels:
+      - homepage.group=媒体 / 影音
+      - homepage.name=Prowlarr
+      - homepage.icon=prowlarr.png
+      - homepage.href=http://prowlarr.music.orb.local/
+      - homepage.description=索引器聚合
 
 
   musictag:
@@ -55,6 +69,13 @@ services:
 
     restart: always
 
+    labels:
+      - homepage.group=媒体 / 影音
+      - homepage.name=Music Tag
+      - homepage.icon=si-musicbrainz
+      - homepage.href=http://musictag.music.orb.local/
+      - homepage.description=音乐标签编辑
+
   picard:
     image: jlesage/musicbrainz-picard:latest
     container_name: picard
@@ -72,3 +93,10 @@ services:
       - 5800:5800
 
     restart: always
+
+    labels:
+      - homepage.group=媒体 / 影音
+      - homepage.name=Picard
+      - homepage.icon=si-musicbrainz
+      - homepage.href=http://picard.music.orb.local/
+      - homepage.description=MusicBrainz Picard

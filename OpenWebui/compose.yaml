@@ -14,3 +14,10 @@ services:
 
     restart: always
 
+    labels:
+      - homepage.group=AI / LLM
+      - homepage.name=Open WebUI
+      - homepage.icon=open-webui.svg
+      - homepage.href=http://open-webui.openwebui.orb.local/
+      - homepage.description=本地 LLM 聊天前端
+

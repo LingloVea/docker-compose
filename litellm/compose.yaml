@@ -23,12 +23,20 @@ services:
       NVIDIA_NIM_API_BASE: ${NVIDIA_NIM_API_BASE}
       OPEN_API_KEY: ${OPEN_API_KEY}
       OPEN_API_BASE: ${OPEN_API_BASE}
+      FLY_API_KEY: ${FLY_API_KEY}
+      FLY_API_BASE: ${FLY_API_BASE}      
       REDIS_HOST: redis
       REDIS_PORT: 6379
     command: --config /app/config.yaml --port 4000
     restart: always
     depends_on:
       - redis
+    labels:
+      - homepage.group=AI / LLM
+      - homepage.name=LiteLLM
+      - homepage.icon=si-openai
+      - homepage.href=http://litellm.litellm.orb.local/
+      - homepage.description=多模型代理网关
 
 volumes:
   redis-data:

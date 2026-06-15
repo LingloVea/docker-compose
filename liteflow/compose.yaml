@@ -1,0 +1,58 @@
+services:
+  db:
+    image: arm64v8/postgres:16-alpine
+    container_name: liteflow-db
+    environment:
+      POSTGRES_DB: litellm
+      POSTGRES_USER: llmproxy
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - liteflow-db-data:/var/lib/postgresql/data
+    restart: always
+    networks:
+      - liteflow-net
+
+  redis:
+    image: arm64v8/redis:7-alpine
+    container_name: liteflow-redis
+    volumes:
+      - liteflow-redis-data:/data
+    restart: always
+    networks:
+      - liteflow-net
+
+  litellm:
+    image: ghcr.io/berriai/litellm:main-stable
+    container_name: liteflow
+    platform: linux/arm64
+    ports:
+      - "${LITELLM_PORT:-4008}:4000"
+    volumes:
+      - ./config.yaml:/app/config.yaml
+    env_file:
+      - .env
+    environment:
+      LITELLM_MASTER_KEY: ${LITELLM_MASTER_KEY}
+    command: --config /app/config.yaml --port 4000
+    restart: always
+    depends_on:
+      - db
+      - redis
+    networks:
+      - liteflow-net
+    labels:
+      - homepage.group=AI / LLM
+      - homepage.name=LiteFlow
+      - homepage.icon=si-openai
+      - homepage.href=http://liteflow.liteflow.orb.local/
+      - homepage.description=LiteFlow 工作流
+
+volumes:
+  liteflow-db-data:
+    name: liteflow-db-data
+  liteflow-redis-data:
+    name: liteflow-redis-data
+
+networks:
+  liteflow-net:
+    name: liteflow-net

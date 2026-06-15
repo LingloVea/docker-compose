@@ -1,0 +1,34 @@
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    ports:
+      - 3030:3000
+    environment:
+      - HOMEPAGE_ALLOWED_HOSTS=192.168.10.8:3030,homepage.homepage.orb.local,localhost:3030,127.0.0.1:3030
+    volumes:
+      - ./config:/app/config
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    restart: always
+    labels:
+      - homepage.group=Dashboard
+      - homepage.name=Homepage
+      - homepage.icon=homepage.png
+      - homepage.href=http://homepage.homepage.orb.local/
+      - homepage.description=个人导航主页
+
+  homepage-css-editor:
+    image: ghcr.io/10mfox/gethomepage-custom-css:latest
+    platform: linux/amd64
+    container_name: homepage-css-editor
+    ports:
+      - 5556:5556
+    environment:
+      - PORT=5556
+    restart: unless-stopped
+    labels:
+      - homepage.group=Dashboard
+      - homepage.name=CSS Editor
+      - homepage.icon=si-css3
+      - homepage.href=http://localhost:5556/
+      - homepage.description=Homepage 自定义 CSS 编辑器

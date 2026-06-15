@@ -26,3 +26,10 @@ services:
 
     restart: always
 
+    labels:
+      - homepage.group=媒体 / 影音
+      - homepage.name=MoviePilot
+      - homepage.icon=jellyfin.png
+      - homepage.href=http://moviepilot.movies.orb.local/
+      - homepage.description=影视自动化
+

@@ -1,6 +1,32 @@
 model_list:
   - model_name: claude
     litellm_params:
+      model: kilo/nex-agi/nex-n2-pro:free
+      api_key: os.environ/KILO_API_KEY
+      api_base: os.environ/KILO_API_BASE
+  - model_name: claude
+    litellm_params:
+      model: openmodel/deepseek-v4-flash
+      api_key: os.environ/OPENMODEL_API_KEY
+      api_base: os.environ/OPENMODEL_API_BASE
+      response: false
+  - model_name: claude
+    litellm_params:
+      model: freem/moonshotai/Kimi-K2.5
+      api_key: os.environ/MOONSHOT_API_KEY
+      api_base: os.environ/MOONSHOT_API_BASE
+  - model_name: claude
+    litellm_params:
+      model: nvidia_nim/stepfun-ai/step-3.5-flash
+      api_key: os.environ/NVIDIA_NIM_API_KEY
+      api_base: os.environ/NVIDIA_NIM_API_BASE
+  - model_name: claude
+    litellm_params:
+      model: nvidia_nim/stepfun-ai/step-3.7-flash
+      api_key: os.environ/NVIDIA_NIM_API_KEY
+      api_base: os.environ/NVIDIA_NIM_API_BASE
+  - model_name: claude
+    litellm_params:
       model: nvidia_nim/deepseek-ai/deepseek-v4-flash
       api_key: os.environ/NVIDIA_NIM_API_KEY
       api_base: os.environ/NVIDIA_NIM_API_BASE
@@ -12,16 +38,6 @@ model_list:
   - model_name: claude
     litellm_params:
       model: nvidia_nim/openai/gpt-oss-120b
-      api_key: os.environ/NVIDIA_NIM_API_KEY
-      api_base: os.environ/NVIDIA_NIM_API_BASE
-  - model_name: claude
-    litellm_params:
-      model: nvidia_nim/stepfun-ai/step-3.7-flash
-      api_key: os.environ/NVIDIA_NIM_API_KEY
-      api_base: os.environ/NVIDIA_NIM_API_BASE
-  - model_name: claude
-    litellm_params:
-      model: nvidia_nim/stepfun-ai/step-3.5-flash
       api_key: os.environ/NVIDIA_NIM_API_KEY
       api_base: os.environ/NVIDIA_NIM_API_BASE
   - model_name: claude

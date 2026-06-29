@@ -20,6 +20,6 @@ services:
       - homepage.group=文件 / 工具
       - homepage.name=OpenList
       - homepage.icon=alist.png
-      - homepage.href=http://openlist.openlist.orb.local/
+      - homepage.href=http://${HOMEPAGE_HOST:-192.168.10.8}:5244/
       - homepage.description=网盘聚合
 

@@ -22,7 +22,7 @@ services:
       - homepage.group=媒体 / 影音
       - homepage.name=Lidarr
       - homepage.icon=lidarr.png
-      - homepage.href=http://lidarr.music.orb.local/
+      - homepage.href=http://${HOMEPAGE_HOST:-192.168.10.8}:8686/
       - homepage.description=音乐库自动化
 
 
@@ -47,7 +47,7 @@ services:
       - homepage.group=媒体 / 影音
       - homepage.name=Prowlarr
       - homepage.icon=prowlarr.png
-      - homepage.href=http://prowlarr.music.orb.local/
+      - homepage.href=http://${HOMEPAGE_HOST:-192.168.10.8}:9696/
       - homepage.description=索引器聚合
 
 
@@ -73,7 +73,7 @@ services:
       - homepage.group=媒体 / 影音
       - homepage.name=Music Tag
       - homepage.icon=si-musicbrainz
-      - homepage.href=http://musictag.music.orb.local/
+      - homepage.href=http://${HOMEPAGE_HOST:-192.168.10.8}:8002/
       - homepage.description=音乐标签编辑
 
   picard:
@@ -98,5 +98,5 @@ services:
       - homepage.group=媒体 / 影音
       - homepage.name=Picard
       - homepage.icon=si-musicbrainz
-      - homepage.href=http://picard.music.orb.local/
+      - homepage.href=http://${HOMEPAGE_HOST:-192.168.10.8}:5800/
       - homepage.description=MusicBrainz Picard

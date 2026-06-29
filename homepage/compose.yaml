@@ -14,7 +14,7 @@ services:
       - homepage.group=Dashboard
       - homepage.name=Homepage
       - homepage.icon=homepage.png
-      - homepage.href=http://homepage.homepage.orb.local/
+      - homepage.href=http://${HOMEPAGE_HOST:-192.168.10.8}:3030/
       - homepage.description=个人导航主页
 
   homepage-css-editor:
@@ -30,5 +30,5 @@ services:
       - homepage.group=Dashboard
       - homepage.name=CSS Editor
       - homepage.icon=si-css3
-      - homepage.href=http://localhost:5556/
+      - homepage.href=http://${HOMEPAGE_HOST:-192.168.10.8}:5556/
       - homepage.description=Homepage 自定义 CSS 编辑器

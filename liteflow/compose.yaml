@@ -44,7 +44,7 @@ services:
       - homepage.group=AI / LLM
       - homepage.name=LiteFlow
       - homepage.icon=si-openai
-      - homepage.href=http://liteflow.liteflow.orb.local/
+      - homepage.href=http://${HOMEPAGE_HOST:-192.168.10.8}:4008/
       - homepage.description=LiteFlow 工作流
 
 volumes:

@@ -1,6 +1,6 @@
 services:
   open-webui:
-    image: open-webui
+    image: ghcr.io/open-webui/open-webui:main
     container_name: open-webui
 
     ports:
@@ -18,6 +18,6 @@ services:
       - homepage.group=AI / LLM
       - homepage.name=Open WebUI
       - homepage.icon=open-webui.svg
-      - homepage.href=http://open-webui.openwebui.orb.local/
+      - homepage.href=http://${HOMEPAGE_HOST:-192.168.10.8}:3000/
       - homepage.description=本地 LLM 聊天前端
 

@@ -35,7 +35,7 @@ services:
       - homepage.group=AI / LLM
       - homepage.name=LiteLLM
       - homepage.icon=si-openai
-      - homepage.href=http://litellm.litellm.orb.local/
+      - homepage.href=http://${HOMEPAGE_HOST:-192.168.10.8}:4000/
       - homepage.description=多模型代理网关
 
 volumes:

@@ -30,6 +30,6 @@ services:
       - homepage.group=媒体 / 影音
       - homepage.name=MoviePilot
       - homepage.icon=jellyfin.png
-      - homepage.href=http://moviepilot.movies.orb.local/
+      - homepage.href=http://${HOMEPAGE_HOST:-192.168.10.8}:3300/
       - homepage.description=影视自动化
 

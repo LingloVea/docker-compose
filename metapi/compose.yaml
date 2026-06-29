@@ -18,5 +18,5 @@ services:
       - homepage.group=文件 / 工具
       - homepage.name=MetaPI
       - homepage.icon=si-fastapi
-      - homepage.href=http://metapi.metapi.orb.local/
+      - homepage.href=http://${HOMEPAGE_HOST:-192.168.10.8}:4080/
       - homepage.description=MetaPI 服务

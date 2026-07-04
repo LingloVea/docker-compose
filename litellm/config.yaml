@@ -1,22 +1,6 @@
 model_list:
   - model_name: claude
     litellm_params:
-      model: kilo/nex-agi/nex-n2-pro:free
-      api_key: os.environ/KILO_API_KEY
-      api_base: os.environ/KILO_API_BASE
-  - model_name: claude
-    litellm_params:
-      model: openmodel/deepseek-v4-flash
-      api_key: os.environ/OPENMODEL_API_KEY
-      api_base: os.environ/OPENMODEL_API_BASE
-      response: false
-  - model_name: claude
-    litellm_params:
-      model: freem/moonshotai/Kimi-K2.5
-      api_key: os.environ/MOONSHOT_API_KEY
-      api_base: os.environ/MOONSHOT_API_BASE
-  - model_name: claude
-    litellm_params:
       model: nvidia_nim/stepfun-ai/step-3.5-flash
       api_key: os.environ/NVIDIA_NIM_API_KEY
       api_base: os.environ/NVIDIA_NIM_API_BASE
@@ -42,9 +26,9 @@ model_list:
       api_base: os.environ/NVIDIA_NIM_API_BASE
   - model_name: claude
     litellm_params:
-      model: openrouter/owl-alpha
-      api_key: os.environ/OPEN_API_KEY
-      api_base: os.environ/OPEN_API_BASE
+      model: nvidia_nim/z-ai/glm-5.2
+      api_key: os.environ/NVIDIA_NIM_API_KEY
+      api_base: os.environ/NVIDIA_NIM_API_BASE
 
 litellm_settings:
   drop_params: true

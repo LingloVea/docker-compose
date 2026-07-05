@@ -27,7 +27,7 @@ services:
       FLY_API_BASE: ${FLY_API_BASE}      
       REDIS_HOST: redis
       REDIS_PORT: 6379
-    command: --config /app/config.yaml --port 4000
+    command: --config /app/config.yaml --port 4000 --detailed_debug
     restart: always
     depends_on:
       - redis

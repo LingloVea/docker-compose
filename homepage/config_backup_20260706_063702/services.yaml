@@ -1,0 +1,14 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+#
+# 服务卡片通过各项目 compose.yaml 的 homepage.* labels 自动发现。
+# 本文件仅保留分组顺序骨架；新增/删除服务请改对应项目的 compose labels。
+
+- Dashboard: []
+
+- AI / LLM: []
+
+- 媒体 / 影音: []
+
+- 文件 / 工具: []

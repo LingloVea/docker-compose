@@ -7,7 +7,7 @@ services:
     environment:
       - HOMEPAGE_ALLOWED_HOSTS=192.168.10.8:3030,homepage.homepage.orb.local,localhost:3030,127.0.0.1:3030
     volumes:
-      - ./config:/app/config
+      - homepage-config:/app/config
       - /var/run/docker.sock:/var/run/docker.sock:ro
     restart: always
     labels:
@@ -32,3 +32,6 @@ services:
       - homepage.icon=si-css3
       - homepage.href=http://${HOMEPAGE_HOST:-192.168.10.8}:5556/
       - homepage.description=Homepage 自定义 CSS 编辑器
+
+volumes:
+  homepage-config:

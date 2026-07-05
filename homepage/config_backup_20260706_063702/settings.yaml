@@ -1,0 +1,13 @@
+---
+
+# vx06 theme expects dark mode
+theme: dark
+
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings/
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
+
+allowedHosts: "*"

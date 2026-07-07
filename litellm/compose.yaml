@@ -15,16 +15,17 @@ services:
     ports:
       - "4000:4000"
     volumes:
-      - ./config:/litellm-config:ro
+      - ./config.yaml:/app/config.yaml:ro
     env_file:
       - .env
     environment:
       REDIS_HOST: redis
       REDIS_PORT: 6379
-    command: --config /litellm-config/config.yaml --port 4000
+    command: --config /app/config.yaml --port 4000
     restart: always
     depends_on:
-      - redis
+      redis:
+        condition: service_started
     labels:
       - homepage.group=AI / LLM
       - homepage.name=LiteLLM

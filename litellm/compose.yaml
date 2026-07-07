@@ -19,12 +19,6 @@ services:
     env_file:
       - .env
     environment:
-      NVIDIA_NIM_API_KEY: ${NVIDIA_NIM_API_KEY}
-      NVIDIA_NIM_API_BASE: ${NVIDIA_NIM_API_BASE}
-      OPEN_API_KEY: ${OPEN_API_KEY}
-      OPEN_API_BASE: ${OPEN_API_BASE}
-      FLY_API_KEY: ${FLY_API_KEY}
-      FLY_API_BASE: ${FLY_API_BASE}      
       REDIS_HOST: redis
       REDIS_PORT: 6379
     command: --config /litellm-config/config.yaml --port 4000

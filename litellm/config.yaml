@@ -8,7 +8,7 @@ model_list:
     api_base: os.environ/NVIDIA_NIM_API_BASE
     api_key: os.environ/NVIDIA_NIM_API_KEY
     model: nvidia_nim/stepfun-ai/step-3.7-flash
-  model_name: claude-step-37-flash
+  model_name: claude
 - litellm_params:
     additional_drop_params:
     - output_config
@@ -16,7 +16,7 @@ model_list:
     api_base: os.environ/NVIDIA_NIM_API_BASE
     api_key: os.environ/NVIDIA_NIM_API_KEY
     model: nvidia_nim/deepseek-ai/deepseek-v4-flash
-  model_name: claude-deepseek-v4-flash
+  model_name: claude
 - litellm_params:
     additional_drop_params:
     - output_config
@@ -32,14 +32,14 @@ model_list:
     api_base: os.environ/NVIDIA_NIM_API_BASE
     api_key: os.environ/NVIDIA_NIM_API_KEY
     model: nvidia_nim/z-ai/glm-5.2
-  model_name: claude-glm-5.2
+  model_name: claude
 - litellm_params:
     additional_drop_params:
     - output_config
     - stop_sequences
-    api_base: os.environ/MIMO_API_BASE
-    api_key: os.environ/MIMO_API_KEY
+    api_base: https://fufu.iqach.top/v1
+    api_key: sk-mimo-bd9f93cb478f94456d1ae5cc57ba79f71df51fc6b6f463c441aa96b263d2ea60
     model: openai/mimo-v2.5-pro
-  model_name: claude-mimo-v2.5-pro
+  model_name: claude
 router_settings:
   routing_strategy: latency-based-routing

@@ -43,3 +43,4 @@ model_list:
   model_name: claude
 router_settings:
   routing_strategy: latency-based-routing
+  num_retries: 5

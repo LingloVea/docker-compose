@@ -1,0 +1,15 @@
+litellm_settings:
+  drop_params: true
+router_settings:
+  routing_strategy: latency-based-routing
+  num_retries: 5
+  
+model_list:
+- litellm_params:
+    additional_drop_params:
+    - output_config
+    - stop_sequences
+    api_base: os.environ/NVIDIA_NIM_API_BASE
+    api_key: os.environ/NVIDIA_NIM_API_KEY
+    model: openai/deepseek-ai/deepseek-v4-pro
+  model_name: claude

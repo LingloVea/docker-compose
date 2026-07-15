@@ -13,20 +13,6 @@ model_list:
     model: openai/deepseek-ai/deepseek-v4-pro
   model_name: claude
 - litellm_params:
-    additional_drop_params: &id001
-    - output_config
-    - stop_sequences
-    api_base: https://88888.qzz.io/v1
-    api_key: sk-hqSMyck1kd29DHrzNAeKyXCxUhi311LjOEs0iMe9QkPpwVB6
-    model: openai/Deepseek-v4-flash
-  model_name: Deepseek-v4-flash
-- litellm_params:
-    additional_drop_params: *id001
-    api_base: https://88888.qzz.io/v1
-    api_key: sk-hqSMyck1kd29DHrzNAeKyXCxUhi311LjOEs0iMe9QkPpwVB6
-    model: openai/glm-5.2
-  model_name: glm-5.2
-- litellm_params:
     additional_drop_params:
     - output_config
     - stop_sequences
@@ -68,3 +54,18 @@ model_list:
     extra_headers:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
   model_name: claude
+- litellm_params:
+    api_base: os.environ/META_API_BASE
+    api_key: os.environ/META_API_KEY
+    model: openai/claude
+  model_name: claude
+- litellm_params:
+    api_base: os.environ/META_API_BASE
+    api_key: os.environ/META_API_KEY
+    model: openai/gemini
+  model_name: claude
+- litellm_params:
+    api_base: os.environ/META_API_BASE
+    api_key: os.environ/META_API_KEY
+    model: openai/gpt
+  model_name: gpt

@@ -51,6 +51,8 @@ model_list:
     api_base: https://fufu.iqach.top/v1
     api_key: sk-mimo-bd9f93cb478f94456d1ae5cc57ba79f71df51fc6b6f463c441aa96b263d2ea60
     model: openai/mimo-v2.5-pro
+    extra_body:
+      enable_thinking: false
     extra_headers:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
   model_name: claude

@@ -13,6 +13,7 @@ services:
       PORT: ${PORT:-4000}
       DATA_DIR: /app/data
       TZ: ${TZ:-Asia/Shanghai}
+      PROXY_MAX_CHANNEL_ATTEMPTS: 10
     restart: always
     labels:
       - homepage.group=文件 / 工具

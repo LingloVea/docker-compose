@@ -57,15 +57,15 @@ model_list:
 - litellm_params:
     api_base: os.environ/META_API_BASE
     api_key: os.environ/META_API_KEY
-    model: openai/claude-sonnet-4-5
+    model: openai/claude
   model_name: claude
 - litellm_params:
     api_base: os.environ/META_API_BASE
     api_key: os.environ/META_API_KEY
-    model: openai/[free]kimi-k2.7
+    model: openai/gemini
   model_name: claude
 - litellm_params:
     api_base: os.environ/META_API_BASE
     api_key: os.environ/META_API_KEY
-    model: openai/metai
+    model: openai/gpt
   model_name: gpt

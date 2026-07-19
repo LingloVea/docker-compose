@@ -1,6 +1,6 @@
 {
   "version": "2.1",
-  "timestamp": 1784422861340,
+  "timestamp": 1784439880091,
   "accounts": {
     "sites": [
       {
@@ -436,9 +436,9 @@
         "oauthProvider": null,
         "oauthAccountKey": null,
         "oauthProjectId": null,
-        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":21657,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":0.755632,\"updatedAt\":\"2026-07-19T01:00:01.568Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:05.483Z\"}}",
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":21657,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":0.755632,\"updatedAt\":\"2026-07-19T05:00:01.313Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T05:00:04.719Z\"}}",
         "createdAt": "2026-07-04 12:53:18",
-        "updatedAt": "2026-07-19T01:00:05.486Z"
+        "updatedAt": "2026-07-19T05:00:04.722Z"
       },
       {
         "id": 14,
@@ -457,9 +457,9 @@
         "oauthProvider": null,
         "oauthAccountKey": null,
         "oauthProjectId": null,
-        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":9102,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":0.859454,\"updatedAt\":\"2026-07-19T01:00:01.611Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:06.250Z\"}}",
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":9102,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":0.859454,\"updatedAt\":\"2026-07-19T05:00:01.147Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T05:00:05.391Z\"}}",
         "createdAt": "2026-07-04 13:03:58",
-        "updatedAt": "2026-07-19T01:00:06.254Z"
+        "updatedAt": "2026-07-19T05:00:05.394Z"
       },
       {
         "id": 15,
@@ -478,9 +478,9 @@
         "oauthProvider": null,
         "oauthAccountKey": null,
         "oauthProjectId": null,
-        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":2544,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":1171.53404,\"updatedAt\":\"2026-07-19T01:00:01.207Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:05.385Z\"}}",
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":2544,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":1171.53404,\"updatedAt\":\"2026-07-19T05:00:03.504Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T05:00:07.464Z\"}}",
         "createdAt": "2026-07-04 13:24:17",
-        "updatedAt": "2026-07-19T01:00:05.394Z"
+        "updatedAt": "2026-07-19T05:00:07.473Z"
       },
       {
         "id": 16,
@@ -499,9 +499,9 @@
         "oauthProvider": null,
         "oauthAccountKey": null,
         "oauthProjectId": null,
-        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":93,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":0.9,\"updatedAt\":\"2026-07-19T01:00:01.616Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:07.769Z\"}}",
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":93,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":0.9,\"updatedAt\":\"2026-07-19T05:00:01.487Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T05:00:09.630Z\"}}",
         "createdAt": "2026-07-04 13:56:57",
-        "updatedAt": "2026-07-19T01:00:07.774Z"
+        "updatedAt": "2026-07-19T05:00:09.635Z"
       },
       {
         "id": 17,
@@ -520,9 +520,9 @@
         "oauthProvider": null,
         "oauthAccountKey": null,
         "oauthProjectId": null,
-        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":1469,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":3.365554,\"updatedAt\":\"2026-07-19T01:00:03.019Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:07.776Z\"}}",
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":1469,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":3.365554,\"updatedAt\":\"2026-07-19T05:00:01.959Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T05:00:09.381Z\"}}",
         "createdAt": "2026-07-05 13:27:38",
-        "updatedAt": "2026-07-19T01:00:07.777Z"
+        "updatedAt": "2026-07-19T05:00:09.383Z"
       },
       {
         "id": 21,
@@ -541,9 +541,9 @@
         "oauthProvider": null,
         "oauthAccountKey": null,
         "oauthProjectId": null,
-        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":4095,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":0.49251,\"updatedAt\":\"2026-07-19T01:00:04.007Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:14.805Z\"}}",
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":4095,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":0.49251,\"updatedAt\":\"2026-07-19T05:00:03.871Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T05:00:16.080Z\"}}",
         "createdAt": "2026-07-12 07:48:12",
-        "updatedAt": "2026-07-19T01:00:14.812Z"
+        "updatedAt": "2026-07-19T05:00:16.094Z"
       },
       {
         "id": 22,
@@ -562,9 +562,9 @@
         "oauthProvider": null,
         "oauthAccountKey": null,
         "oauthProjectId": null,
-        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":3125,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":0.129458,\"updatedAt\":\"2026-07-19T01:00:01.282Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:17.900Z\"}}",
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":3125,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":0.129458,\"updatedAt\":\"2026-07-19T05:00:02.147Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T05:00:18.533Z\"}}",
         "createdAt": "2026-07-12 09:19:45",
-        "updatedAt": "2026-07-19T01:00:17.904Z"
+        "updatedAt": "2026-07-19T05:00:18.536Z"
       },
       {
         "id": 28,
@@ -583,9 +583,9 @@
         "oauthProvider": null,
         "oauthAccountKey": null,
         "oauthProjectId": null,
-        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":7590,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":20,\"updatedAt\":\"2026-07-19T01:00:02.971Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:41.181Z\"}}",
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":7590,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":20,\"updatedAt\":\"2026-07-19T05:00:02.646Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T05:00:38.582Z\"}}",
         "createdAt": "2026-07-18 01:20:48",
-        "updatedAt": "2026-07-19T01:00:41.185Z"
+        "updatedAt": "2026-07-19T05:00:38.584Z"
       },
       {
         "id": 29,
@@ -604,9 +604,9 @@
         "oauthProvider": null,
         "oauthAccountKey": null,
         "oauthProjectId": null,
-        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":1045,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":40.468952,\"latest\":40.468952,\"updatedAt\":\"2026-07-19T01:00:01.629Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:16.406Z\"}}",
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":1045,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":40.468952,\"latest\":40.468952,\"updatedAt\":\"2026-07-19T05:00:02.661Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T05:00:18.028Z\"}}",
         "createdAt": "2026-07-18 23:09:15",
-        "updatedAt": "2026-07-19T01:00:16.409Z"
+        "updatedAt": "2026-07-19T05:00:18.030Z"
       },
       {
         "id": 30,
@@ -625,9 +625,9 @@
         "oauthProvider": null,
         "oauthAccountKey": null,
         "oauthProjectId": null,
-        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":892,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":0,\"updatedAt\":\"2026-07-19T01:00:01.665Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:50.289Z\"}}",
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":892,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":0,\"updatedAt\":\"2026-07-19T05:00:02.196Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T05:01:02.565Z\"}}",
         "createdAt": "2026-07-19 00:01:23",
-        "updatedAt": "2026-07-19T01:00:50.289Z"
+        "updatedAt": "2026-07-19T05:01:02.568Z"
       },
       {
         "id": 32,
@@ -646,9 +646,9 @@
         "oauthProvider": null,
         "oauthAccountKey": null,
         "oauthProjectId": null,
-        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":29126,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":200,\"updatedAt\":\"2026-07-19T01:00:01.678Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:43.174Z\"}}",
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":29126,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":200,\"updatedAt\":\"2026-07-19T05:00:02.410Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T05:00:40.983Z\"}}",
         "createdAt": "2026-07-19 00:20:15",
-        "updatedAt": "2026-07-19T01:00:43.176Z"
+        "updatedAt": "2026-07-19T05:00:40.985Z"
       }
     ],
     "accountTokens": [
@@ -663,7 +663,7 @@
         "enabled": false,
         "isDefault": true,
         "createdAt": "2026-07-04T12:55:16.649Z",
-        "updatedAt": "2026-07-19T01:00:04.296Z"
+        "updatedAt": "2026-07-19T05:00:03.886Z"
       },
       {
         "id": 17,
@@ -978,7 +978,7 @@
         "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-06-28 23:49:15",
-        "updatedAt": "2026-07-19T00:55:02.286Z"
+        "updatedAt": "2026-07-19T01:04:43.815Z"
       },
       {
         "id": 675,
@@ -992,7 +992,7 @@
         "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-12 23:48:46",
-        "updatedAt": "2026-07-19T00:59:34.547Z"
+        "updatedAt": "2026-07-19T01:06:39.848Z"
       },
       {
         "id": 676,
@@ -1017,10 +1017,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-15 22:49:21",
-        "updatedAt": "2026-07-19T00:58:43.246Z"
+        "updatedAt": "2026-07-19T01:10:20.700Z"
       },
       {
         "id": 758,
@@ -1157,10 +1157,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 899,
@@ -1171,10 +1171,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 900,
@@ -1185,10 +1185,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 901,
@@ -1199,10 +1199,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 902,
@@ -1213,10 +1213,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:10:32.140Z"
       },
       {
         "id": 903,
@@ -1227,10 +1227,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:10:32.140Z"
       },
       {
         "id": 904,
@@ -1241,10 +1241,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 905,
@@ -1255,10 +1255,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 906,
@@ -1269,10 +1269,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 907,
@@ -1283,10 +1283,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 908,
@@ -1297,10 +1297,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:10:32.140Z"
       },
       {
         "id": 909,
@@ -1311,10 +1311,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 910,
@@ -1339,10 +1339,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 912,
@@ -1353,10 +1353,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 913,
@@ -1367,10 +1367,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 914,
@@ -1381,10 +1381,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 915,
@@ -1395,10 +1395,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:10:32.140Z"
       },
       {
         "id": 916,
@@ -1409,10 +1409,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:10:32.140Z"
       },
       {
         "id": 917,
@@ -1423,10 +1423,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:10:32.140Z"
       },
       {
         "id": 918,
@@ -1451,10 +1451,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:10:32.140Z"
       },
       {
         "id": 920,
@@ -1465,10 +1465,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:10:32.140Z"
       },
       {
         "id": 921,
@@ -1479,10 +1479,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:10:32.140Z"
       },
       {
         "id": 922,
@@ -1493,10 +1493,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:10:32.140Z"
       },
       {
         "id": 923,
@@ -1507,10 +1507,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 924,
@@ -1521,10 +1521,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 925,
@@ -1535,10 +1535,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 926,
@@ -1549,10 +1549,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 927,
@@ -1563,10 +1563,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 928,
@@ -1577,10 +1577,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 929,
@@ -1591,10 +1591,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 930,
@@ -1605,10 +1605,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 931,
@@ -1619,10 +1619,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 932,
@@ -1633,10 +1633,10 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
       },
       {
         "id": 933,
@@ -1647,10 +1647,24 @@
         "modelMapping": null,
         "decisionSnapshot": null,
         "decisionRefreshedAt": null,
-        "routingStrategy": "weighted",
+        "routingStrategy": "stable_first",
         "enabled": true,
         "createdAt": "2026-07-19 01:00:50",
-        "updatedAt": "2026-07-19 01:00:50"
+        "updatedAt": "2026-07-19T01:04:43.819Z"
+      },
+      {
+        "id": 934,
+        "modelPattern": "glm",
+        "displayName": "glm",
+        "displayIcon": null,
+        "routeMode": "explicit_group",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "stable_first",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:10:03",
+        "updatedAt": "2026-07-19T01:10:32.138Z"
       }
     ],
     "routeChannels": [
@@ -1847,18 +1861,6 @@
         "manualOverride": false
       },
       {
-        "id": 1451,
-        "routeId": 899,
-        "accountId": 30,
-        "tokenId": 47,
-        "oauthRouteUnitId": null,
-        "sourceModel": null,
-        "priority": 0,
-        "weight": 10,
-        "enabled": true,
-        "manualOverride": false
-      },
-      {
         "id": 1452,
         "routeId": 899,
         "accountId": 32,
@@ -1979,18 +1981,6 @@
         "manualOverride": false
       },
       {
-        "id": 1462,
-        "routeId": 900,
-        "accountId": 30,
-        "tokenId": 47,
-        "oauthRouteUnitId": null,
-        "sourceModel": null,
-        "priority": 0,
-        "weight": 10,
-        "enabled": true,
-        "manualOverride": false
-      },
-      {
         "id": 1463,
         "routeId": 900,
         "accountId": 32,
@@ -2055,18 +2045,6 @@
         "routeId": 901,
         "accountId": 22,
         "tokenId": 22,
-        "oauthRouteUnitId": null,
-        "sourceModel": null,
-        "priority": 0,
-        "weight": 10,
-        "enabled": true,
-        "manualOverride": false
-      },
-      {
-        "id": 1469,
-        "routeId": 901,
-        "accountId": 30,
-        "tokenId": 47,
         "oauthRouteUnitId": null,
         "sourceModel": null,
         "priority": 0,
@@ -2291,18 +2269,6 @@
         "manualOverride": false
       },
       {
-        "id": 1488,
-        "routeId": 758,
-        "accountId": 30,
-        "tokenId": 47,
-        "oauthRouteUnitId": null,
-        "sourceModel": null,
-        "priority": 0,
-        "weight": 10,
-        "enabled": true,
-        "manualOverride": false
-      },
-      {
         "id": 1489,
         "routeId": 758,
         "accountId": 30,
@@ -2391,18 +2357,6 @@
         "routeId": 765,
         "accountId": 22,
         "tokenId": 22,
-        "oauthRouteUnitId": null,
-        "sourceModel": null,
-        "priority": 0,
-        "weight": 10,
-        "enabled": true,
-        "manualOverride": false
-      },
-      {
-        "id": 1497,
-        "routeId": 765,
-        "accountId": 30,
-        "tokenId": 47,
         "oauthRouteUnitId": null,
         "sourceModel": null,
         "priority": 0,
@@ -2723,18 +2677,6 @@
         "manualOverride": false
       },
       {
-        "id": 1524,
-        "routeId": 932,
-        "accountId": 30,
-        "tokenId": 47,
-        "oauthRouteUnitId": null,
-        "sourceModel": null,
-        "priority": 0,
-        "weight": 10,
-        "enabled": true,
-        "manualOverride": false
-      },
-      {
         "id": 1525,
         "routeId": 932,
         "accountId": 30,
@@ -2773,46 +2715,6 @@
     ],
     "routeGroupSources": [
       {
-        "id": 519,
-        "groupRouteId": 162,
-        "sourceRouteId": 758
-      },
-      {
-        "id": 520,
-        "groupRouteId": 162,
-        "sourceRouteId": 765
-      },
-      {
-        "id": 524,
-        "groupRouteId": 162,
-        "sourceRouteId": 800
-      },
-      {
-        "id": 525,
-        "groupRouteId": 162,
-        "sourceRouteId": 801
-      },
-      {
-        "id": 526,
-        "groupRouteId": 162,
-        "sourceRouteId": 803
-      },
-      {
-        "id": 527,
-        "groupRouteId": 162,
-        "sourceRouteId": 808
-      },
-      {
-        "id": 529,
-        "groupRouteId": 162,
-        "sourceRouteId": 890
-      },
-      {
-        "id": 530,
-        "groupRouteId": 162,
-        "sourceRouteId": 892
-      },
-      {
         "id": 531,
         "groupRouteId": 676,
         "sourceRouteId": 758
@@ -2833,54 +2735,304 @@
         "sourceRouteId": 890
       },
       {
-        "id": 538,
+        "id": 551,
+        "groupRouteId": 162,
+        "sourceRouteId": 758
+      },
+      {
+        "id": 552,
+        "groupRouteId": 162,
+        "sourceRouteId": 765
+      },
+      {
+        "id": 553,
+        "groupRouteId": 162,
+        "sourceRouteId": 800
+      },
+      {
+        "id": 554,
+        "groupRouteId": 162,
+        "sourceRouteId": 801
+      },
+      {
+        "id": 555,
+        "groupRouteId": 162,
+        "sourceRouteId": 808
+      },
+      {
+        "id": 556,
+        "groupRouteId": 162,
+        "sourceRouteId": 890
+      },
+      {
+        "id": 557,
+        "groupRouteId": 162,
+        "sourceRouteId": 892
+      },
+      {
+        "id": 558,
+        "groupRouteId": 162,
+        "sourceRouteId": 898
+      },
+      {
+        "id": 559,
+        "groupRouteId": 162,
+        "sourceRouteId": 899
+      },
+      {
+        "id": 560,
+        "groupRouteId": 162,
+        "sourceRouteId": 900
+      },
+      {
+        "id": 561,
+        "groupRouteId": 162,
+        "sourceRouteId": 901
+      },
+      {
+        "id": 562,
+        "groupRouteId": 162,
+        "sourceRouteId": 904
+      },
+      {
+        "id": 563,
+        "groupRouteId": 162,
+        "sourceRouteId": 905
+      },
+      {
+        "id": 564,
+        "groupRouteId": 162,
+        "sourceRouteId": 906
+      },
+      {
+        "id": 565,
+        "groupRouteId": 162,
+        "sourceRouteId": 907
+      },
+      {
+        "id": 566,
+        "groupRouteId": 162,
+        "sourceRouteId": 909
+      },
+      {
+        "id": 567,
+        "groupRouteId": 162,
+        "sourceRouteId": 911
+      },
+      {
+        "id": 568,
+        "groupRouteId": 162,
+        "sourceRouteId": 912
+      },
+      {
+        "id": 569,
+        "groupRouteId": 162,
+        "sourceRouteId": 913
+      },
+      {
+        "id": 570,
+        "groupRouteId": 162,
+        "sourceRouteId": 914
+      },
+      {
+        "id": 571,
+        "groupRouteId": 162,
+        "sourceRouteId": 923
+      },
+      {
+        "id": 572,
+        "groupRouteId": 162,
+        "sourceRouteId": 924
+      },
+      {
+        "id": 573,
+        "groupRouteId": 162,
+        "sourceRouteId": 925
+      },
+      {
+        "id": 574,
+        "groupRouteId": 162,
+        "sourceRouteId": 926
+      },
+      {
+        "id": 575,
+        "groupRouteId": 162,
+        "sourceRouteId": 927
+      },
+      {
+        "id": 576,
+        "groupRouteId": 162,
+        "sourceRouteId": 928
+      },
+      {
+        "id": 577,
+        "groupRouteId": 162,
+        "sourceRouteId": 929
+      },
+      {
+        "id": 578,
+        "groupRouteId": 162,
+        "sourceRouteId": 930
+      },
+      {
+        "id": 579,
+        "groupRouteId": 162,
+        "sourceRouteId": 931
+      },
+      {
+        "id": 580,
+        "groupRouteId": 162,
+        "sourceRouteId": 932
+      },
+      {
+        "id": 581,
+        "groupRouteId": 162,
+        "sourceRouteId": 933
+      },
+      {
+        "id": 582,
+        "groupRouteId": 675,
+        "sourceRouteId": 930
+      },
+      {
+        "id": 583,
+        "groupRouteId": 675,
+        "sourceRouteId": 931
+      },
+      {
+        "id": 584,
         "groupRouteId": 720,
         "sourceRouteId": 892
       },
       {
-        "id": 539,
-        "groupRouteId": 675,
-        "sourceRouteId": 758
+        "id": 585,
+        "groupRouteId": 720,
+        "sourceRouteId": 898
       },
       {
-        "id": 540,
-        "groupRouteId": 675,
-        "sourceRouteId": 765
+        "id": 586,
+        "groupRouteId": 720,
+        "sourceRouteId": 904
       },
       {
-        "id": 544,
-        "groupRouteId": 675,
+        "id": 587,
+        "groupRouteId": 720,
+        "sourceRouteId": 905
+      },
+      {
+        "id": 588,
+        "groupRouteId": 720,
+        "sourceRouteId": 906
+      },
+      {
+        "id": 589,
+        "groupRouteId": 720,
+        "sourceRouteId": 907
+      },
+      {
+        "id": 590,
+        "groupRouteId": 720,
+        "sourceRouteId": 914
+      },
+      {
+        "id": 591,
+        "groupRouteId": 720,
+        "sourceRouteId": 925
+      },
+      {
+        "id": 592,
+        "groupRouteId": 720,
+        "sourceRouteId": 926
+      },
+      {
+        "id": 593,
+        "groupRouteId": 720,
+        "sourceRouteId": 927
+      },
+      {
+        "id": 594,
+        "groupRouteId": 720,
+        "sourceRouteId": 928
+      },
+      {
+        "id": 595,
+        "groupRouteId": 720,
+        "sourceRouteId": 929
+      },
+      {
+        "id": 596,
+        "groupRouteId": 934,
         "sourceRouteId": 800
       },
       {
-        "id": 545,
-        "groupRouteId": 675,
+        "id": 597,
+        "groupRouteId": 934,
         "sourceRouteId": 801
       },
       {
-        "id": 546,
-        "groupRouteId": 675,
+        "id": 598,
+        "groupRouteId": 934,
         "sourceRouteId": 803
       },
       {
-        "id": 547,
-        "groupRouteId": 675,
+        "id": 599,
+        "groupRouteId": 934,
         "sourceRouteId": 805
       },
       {
-        "id": 548,
-        "groupRouteId": 675,
-        "sourceRouteId": 808
+        "id": 600,
+        "groupRouteId": 934,
+        "sourceRouteId": 902
       },
       {
-        "id": 549,
-        "groupRouteId": 675,
-        "sourceRouteId": 890
+        "id": 601,
+        "groupRouteId": 934,
+        "sourceRouteId": 903
       },
       {
-        "id": 550,
-        "groupRouteId": 675,
-        "sourceRouteId": 892
+        "id": 602,
+        "groupRouteId": 934,
+        "sourceRouteId": 908
+      },
+      {
+        "id": 603,
+        "groupRouteId": 934,
+        "sourceRouteId": 911
+      },
+      {
+        "id": 604,
+        "groupRouteId": 934,
+        "sourceRouteId": 915
+      },
+      {
+        "id": 605,
+        "groupRouteId": 934,
+        "sourceRouteId": 916
+      },
+      {
+        "id": 606,
+        "groupRouteId": 934,
+        "sourceRouteId": 917
+      },
+      {
+        "id": 607,
+        "groupRouteId": 934,
+        "sourceRouteId": 919
+      },
+      {
+        "id": 608,
+        "groupRouteId": 934,
+        "sourceRouteId": 920
+      },
+      {
+        "id": 609,
+        "groupRouteId": 934,
+        "sourceRouteId": 921
+      },
+      {
+        "id": 610,
+        "groupRouteId": 934,
+        "sourceRouteId": 922
       }
     ],
     "siteDisabledModels": [
@@ -4309,7 +4461,7 @@
         "expiresAt": null,
         "maxCost": null,
         "maxRequests": null,
-        "supportedModels": "[\"agnes-2.0-flash\",\"claude\",\"gemini\",\"gemini-2.0-flash\",\"gemini-embedding-exp-03-07\",\"gpt\",\"gpt-5-3\",\"gpt-5-5\",\"gpt-5.4\",\"gpt-5.4-mini\",\"gpt-5.5\",\"gpt-5.6-luna\",\"gpt-5.6-sol\",\"gpt-5.6-terra\",\"grok-4.20-fast\",\"grok-4.3-fast\",\"metai\",\"z-ai/glm-5.2\"]",
+        "supportedModels": "[\"[free]deepseek-v4-flash\",\"[free]deepseek-v4-pro\",\"[free]gemini-2.5-flash\",\"[free]gemini-2.5-pro\",\"[free]gemini-3.1-pro-preview\",\"[free]gemini-3.5-flash\",\"[free]glm-5.2\",\"[free]gpt-5.5\",\"[free]gpt-image-2\",\"[free]grok-4.5\",\"agnes-2.0-flash\",\"claude\",\"claude-opus-4-5\",\"claude-opus-4-7\",\"codex-auto-review\",\"Deepseek-v4-flash\",\"Deepseek-v4-pro\",\"gemini\",\"gemini-2.0-flash\",\"gemini-3-flash\",\"gemini-3-flash-preview\",\"gemini-3.1-flash-lite-preview\",\"gemini-3.1-pro\",\"gemini-3.1-pro-high\",\"gemini-3.1-pro-preview\",\"gemini-3.5-flash\",\"glm-5.2\",\"GLM5\",\"gpt\",\"gpt-5-3\",\"gpt-5-5\",\"gpt-5.2\",\"gpt-5.4\",\"gpt-5.4-mini\",\"gpt-5.4-openai-compact\",\"gpt-5.5\",\"gpt-5.5-codex-auto-review\",\"gpt-5.5-openai-compact\",\"gpt-5.6-luna\",\"gpt-5.6-sol\",\"gpt-5.6-terra\",\"grok-4.20-fast\",\"grok-4.3-fast\",\"Kimi-k2.6\",\"metai\",\"minimax-m3\",\"Qwen--3.5-max\",\"step-3.7-flash\",\"z-ai/glm-5.2\"]",
         "allowedRouteIds": null,
         "siteWeightMultipliers": null,
         "excludedSiteIds": null,
@@ -4326,7 +4478,7 @@
       {
         "key": "update_center_runtime_state_v1",
         "value": {
-          "lastCheckedAt": "2026-07-19 01:00:11",
+          "lastCheckedAt": "2026-07-19 05:30:11",
           "lastCheckError": null,
           "lastResolvedSource": null,
           "lastResolvedDisplayVersion": null,

@@ -21,6 +21,7 @@ services:
     environment:
       REDIS_HOST: redis
       REDIS_PORT: 6379
+      LITELLM_USE_CHAT_COMPLETIONS_URL_FOR_ANTHROPIC_MESSAGES: "true"
     command: --config /app/config.yaml --port 4000
     restart: always
     depends_on:

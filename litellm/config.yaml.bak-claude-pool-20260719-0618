@@ -3,9 +3,6 @@ litellm_settings:
 router_settings:
   routing_strategy: latency-based-routing
   num_retries: 5
-  model_group_retry_policy:
-    claude:
-      BadRequestErrorRetries: 8
 model_list:
 - litellm_params:
     additional_drop_params:
@@ -14,7 +11,7 @@ model_list:
     api_base: os.environ/NVIDIA_NIM_API_BASE
     api_key: os.environ/NVIDIA_NIM_API_KEY
     model: openai/deepseek-ai/deepseek-v4-pro
-  model_name: claude
+  model_name: nvidia-deepseek-v4-pro-openai
 - litellm_params:
     additional_drop_params:
     - output_config
@@ -22,7 +19,7 @@ model_list:
     api_base: os.environ/NVIDIA_NIM_API_BASE
     api_key: os.environ/NVIDIA_NIM_API_KEY
     model: nvidia_nim/stepfun-ai/step-3.7-flash
-  model_name: claude
+  model_name: nvidia-step-3.7-flash
 - litellm_params:
     additional_drop_params:
     - output_config
@@ -30,7 +27,7 @@ model_list:
     api_base: os.environ/NVIDIA_NIM_API_BASE
     api_key: os.environ/NVIDIA_NIM_API_KEY
     model: nvidia_nim/deepseek-ai/deepseek-v4-flash
-  model_name: claude
+  model_name: nvidia-deepseek-v4-flash
 - litellm_params:
     additional_drop_params:
     - output_config
@@ -38,7 +35,7 @@ model_list:
     api_base: os.environ/NVIDIA_NIM_API_BASE
     api_key: os.environ/NVIDIA_NIM_API_KEY
     model: nvidia_nim/deepseek-ai/deepseek-v4-pro
-  model_name: claude
+  model_name: nvidia-deepseek-v4-pro
 - litellm_params:
     additional_drop_params:
     - output_config
@@ -46,7 +43,7 @@ model_list:
     api_base: os.environ/NVIDIA_NIM_API_BASE
     api_key: os.environ/NVIDIA_NIM_API_KEY
     model: nvidia_nim/z-ai/glm-5.2
-  model_name: claude
+  model_name: nvidia-glm-5.2
 - litellm_params:
     additional_drop_params:
     - output_config
@@ -58,17 +55,17 @@ model_list:
       enable_thinking: false
     extra_headers:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
-  model_name: claude
+  model_name: mimo-v2.5-pro
 - litellm_params:
     api_base: os.environ/META_API_BASE
     api_key: os.environ/META_API_KEY
     model: openai/claude
-  model_name: claude
+  model_name: metapi-gemini
 - litellm_params:
     api_base: os.environ/META_API_BASE
     api_key: os.environ/META_API_KEY
     model: openai/gemini
-  model_name: claude
+  model_name: metapi-gpt
 - litellm_params:
     api_base: os.environ/META_API_BASE
     api_key: os.environ/META_API_KEY

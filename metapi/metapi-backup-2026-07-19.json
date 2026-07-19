@@ -1,0 +1,4596 @@
+{
+  "version": "2.1",
+  "timestamp": 1784422861340,
+  "accounts": {
+    "sites": [
+      {
+        "id": 11,
+        "name": "VoAPI",
+        "url": "https://demo.voapi.top",
+        "externalCheckinUrl": null,
+        "platform": "sub2api",
+        "proxyUrl": null,
+        "useSystemProxy": false,
+        "customHeaders": null,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 4,
+        "globalWeight": 1,
+        "apiKey": null,
+        "postRefreshProbeEnabled": false,
+        "postRefreshProbeModel": "",
+        "postRefreshProbeScope": "single",
+        "postRefreshProbeLatencyThresholdMs": 0,
+        "createdAt": "2026-06-22 23:59:21",
+        "updatedAt": "2026-07-05T23:03:31.103Z"
+      },
+      {
+        "id": 14,
+        "name": "ModelGate",
+        "url": "https://modelgate.app",
+        "externalCheckinUrl": null,
+        "platform": "new-api",
+        "proxyUrl": null,
+        "useSystemProxy": false,
+        "customHeaders": null,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 2,
+        "globalWeight": 1,
+        "apiKey": null,
+        "postRefreshProbeEnabled": false,
+        "postRefreshProbeModel": "",
+        "postRefreshProbeScope": "single",
+        "postRefreshProbeLatencyThresholdMs": 0,
+        "createdAt": "2026-06-28 03:00:00",
+        "updatedAt": "2026-07-07T13:45:29.840Z"
+      },
+      {
+        "id": 21,
+        "name": "learnai",
+        "url": "https://free.learn-ai.top",
+        "externalCheckinUrl": null,
+        "platform": "new-api",
+        "proxyUrl": null,
+        "useSystemProxy": false,
+        "customHeaders": null,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 9,
+        "globalWeight": 0.5,
+        "apiKey": null,
+        "postRefreshProbeEnabled": false,
+        "postRefreshProbeModel": "",
+        "postRefreshProbeScope": "single",
+        "postRefreshProbeLatencyThresholdMs": 0,
+        "createdAt": "2026-07-04 12:51:24",
+        "updatedAt": "2026-07-18T23:01:39.651Z"
+      },
+      {
+        "id": 22,
+        "name": "dawcode",
+        "url": "https://dawclaudecode.com",
+        "externalCheckinUrl": null,
+        "platform": "new-api",
+        "proxyUrl": null,
+        "useSystemProxy": false,
+        "customHeaders": null,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 10,
+        "globalWeight": 2,
+        "apiKey": null,
+        "postRefreshProbeEnabled": false,
+        "postRefreshProbeModel": "",
+        "postRefreshProbeScope": "single",
+        "postRefreshProbeLatencyThresholdMs": 0,
+        "createdAt": "2026-07-04 13:02:56",
+        "updatedAt": "2026-07-07T13:58:53.942Z"
+      },
+      {
+        "id": 23,
+        "name": "new",
+        "url": "https://new.xinjianya.top",
+        "externalCheckinUrl": null,
+        "platform": "new-api",
+        "proxyUrl": null,
+        "useSystemProxy": false,
+        "customHeaders": null,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 11,
+        "globalWeight": 1,
+        "apiKey": null,
+        "postRefreshProbeEnabled": false,
+        "postRefreshProbeModel": "",
+        "postRefreshProbeScope": "single",
+        "postRefreshProbeLatencyThresholdMs": 0,
+        "createdAt": "2026-07-04 13:23:00",
+        "updatedAt": "2026-07-12T23:03:08.929Z"
+      },
+      {
+        "id": 24,
+        "name": "ai",
+        "url": "https://api.aiwanai.cc",
+        "externalCheckinUrl": null,
+        "platform": "new-api",
+        "proxyUrl": null,
+        "useSystemProxy": false,
+        "customHeaders": null,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 12,
+        "globalWeight": 1,
+        "apiKey": null,
+        "postRefreshProbeEnabled": false,
+        "postRefreshProbeModel": "",
+        "postRefreshProbeScope": "single",
+        "postRefreshProbeLatencyThresholdMs": 0,
+        "createdAt": "2026-07-04 13:55:24",
+        "updatedAt": "2026-07-15T23:57:14.237Z"
+      },
+      {
+        "id": 25,
+        "name": "docode",
+        "url": "https://docode.cc",
+        "externalCheckinUrl": null,
+        "platform": "new-api",
+        "proxyUrl": null,
+        "useSystemProxy": false,
+        "customHeaders": null,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 13,
+        "globalWeight": 3,
+        "apiKey": null,
+        "postRefreshProbeEnabled": false,
+        "postRefreshProbeModel": "",
+        "postRefreshProbeScope": "single",
+        "postRefreshProbeLatencyThresholdMs": 0,
+        "createdAt": "2026-07-05 13:26:33",
+        "updatedAt": "2026-07-18T22:53:01.117Z"
+      },
+      {
+        "id": 29,
+        "name": "cloud",
+        "url": "https://newapi.makelove.cloud",
+        "externalCheckinUrl": null,
+        "platform": "new-api",
+        "proxyUrl": null,
+        "useSystemProxy": false,
+        "customHeaders": null,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 17,
+        "globalWeight": 3,
+        "apiKey": null,
+        "postRefreshProbeEnabled": false,
+        "postRefreshProbeModel": "",
+        "postRefreshProbeScope": "single",
+        "postRefreshProbeLatencyThresholdMs": 0,
+        "createdAt": "2026-07-12 07:46:40",
+        "updatedAt": "2026-07-15T21:54:35.192Z"
+      },
+      {
+        "id": 30,
+        "name": "fast",
+        "url": "https://fast.qianxing.pro",
+        "externalCheckinUrl": null,
+        "platform": "new-api",
+        "proxyUrl": null,
+        "useSystemProxy": false,
+        "customHeaders": null,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 18,
+        "globalWeight": 2,
+        "apiKey": null,
+        "postRefreshProbeEnabled": false,
+        "postRefreshProbeModel": "",
+        "postRefreshProbeScope": "single",
+        "postRefreshProbeLatencyThresholdMs": 0,
+        "createdAt": "2026-07-12 09:13:34",
+        "updatedAt": "2026-07-18T22:59:42.492Z"
+      },
+      {
+        "id": 31,
+        "name": "api",
+        "url": "https://api2.wahuiliyi.cn",
+        "externalCheckinUrl": null,
+        "platform": "sub2api",
+        "proxyUrl": null,
+        "useSystemProxy": false,
+        "customHeaders": null,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 19,
+        "globalWeight": 3,
+        "apiKey": null,
+        "postRefreshProbeEnabled": false,
+        "postRefreshProbeModel": "",
+        "postRefreshProbeScope": "single",
+        "postRefreshProbeLatencyThresholdMs": 0,
+        "createdAt": "2026-07-15 21:59:07",
+        "updatedAt": "2026-07-15T22:00:05.070Z"
+      },
+      {
+        "id": 34,
+        "name": "ChatGPT Codex OAuth",
+        "url": "https://chatgpt.com/backend-api/codex",
+        "externalCheckinUrl": null,
+        "platform": "codex",
+        "proxyUrl": null,
+        "useSystemProxy": false,
+        "customHeaders": null,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 22,
+        "globalWeight": 1,
+        "apiKey": null,
+        "postRefreshProbeEnabled": false,
+        "postRefreshProbeModel": "",
+        "postRefreshProbeScope": "single",
+        "postRefreshProbeLatencyThresholdMs": 0,
+        "createdAt": "2026-07-15 23:38:03",
+        "updatedAt": "2026-07-15 23:38:03"
+      },
+      {
+        "id": 35,
+        "name": "Anthropic Claude OAuth",
+        "url": "https://api.anthropic.com",
+        "externalCheckinUrl": null,
+        "platform": "claude",
+        "proxyUrl": null,
+        "useSystemProxy": false,
+        "customHeaders": null,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 23,
+        "globalWeight": 1,
+        "apiKey": null,
+        "postRefreshProbeEnabled": false,
+        "postRefreshProbeModel": "",
+        "postRefreshProbeScope": "single",
+        "postRefreshProbeLatencyThresholdMs": 0,
+        "createdAt": "2026-07-15 23:38:03",
+        "updatedAt": "2026-07-15 23:38:03"
+      },
+      {
+        "id": 36,
+        "name": "Google Gemini CLI OAuth",
+        "url": "https://cloudcode-pa.googleapis.com",
+        "externalCheckinUrl": null,
+        "platform": "gemini-cli",
+        "proxyUrl": null,
+        "useSystemProxy": false,
+        "customHeaders": null,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 24,
+        "globalWeight": 1,
+        "apiKey": null,
+        "postRefreshProbeEnabled": false,
+        "postRefreshProbeModel": "",
+        "postRefreshProbeScope": "single",
+        "postRefreshProbeLatencyThresholdMs": 0,
+        "createdAt": "2026-07-15 23:38:03",
+        "updatedAt": "2026-07-15 23:38:03"
+      },
+      {
+        "id": 37,
+        "name": "Google Antigravity OAuth",
+        "url": "https://cloudcode-pa.googleapis.com",
+        "externalCheckinUrl": null,
+        "platform": "antigravity",
+        "proxyUrl": null,
+        "useSystemProxy": false,
+        "customHeaders": null,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 25,
+        "globalWeight": 1,
+        "apiKey": null,
+        "postRefreshProbeEnabled": false,
+        "postRefreshProbeModel": "",
+        "postRefreshProbeScope": "single",
+        "postRefreshProbeLatencyThresholdMs": 0,
+        "createdAt": "2026-07-15 23:38:03",
+        "updatedAt": "2026-07-15 23:38:03"
+      },
+      {
+        "id": 38,
+        "name": "model",
+        "url": "https://freemodel.dev",
+        "externalCheckinUrl": null,
+        "platform": "one-api",
+        "proxyUrl": null,
+        "useSystemProxy": false,
+        "customHeaders": null,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 26,
+        "globalWeight": 3,
+        "apiKey": null,
+        "postRefreshProbeEnabled": false,
+        "postRefreshProbeModel": "",
+        "postRefreshProbeScope": "single",
+        "postRefreshProbeLatencyThresholdMs": 0,
+        "createdAt": "2026-07-16 23:31:26",
+        "updatedAt": "2026-07-16 23:31:26"
+      },
+      {
+        "id": 39,
+        "name": "7x",
+        "url": "https://7x.hk",
+        "externalCheckinUrl": null,
+        "platform": "new-api",
+        "proxyUrl": null,
+        "useSystemProxy": false,
+        "customHeaders": null,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 27,
+        "globalWeight": 3,
+        "apiKey": null,
+        "postRefreshProbeEnabled": false,
+        "postRefreshProbeModel": "",
+        "postRefreshProbeScope": "single",
+        "postRefreshProbeLatencyThresholdMs": 0,
+        "createdAt": "2026-07-17 23:19:31",
+        "updatedAt": "2026-07-17T23:19:51.453Z"
+      },
+      {
+        "id": 40,
+        "name": "qzz",
+        "url": "https://88888.qzz.io",
+        "externalCheckinUrl": null,
+        "platform": "new-api",
+        "proxyUrl": null,
+        "useSystemProxy": false,
+        "customHeaders": null,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 28,
+        "globalWeight": 0.5,
+        "apiKey": null,
+        "postRefreshProbeEnabled": false,
+        "postRefreshProbeModel": "",
+        "postRefreshProbeScope": "single",
+        "postRefreshProbeLatencyThresholdMs": 0,
+        "createdAt": "2026-07-18 23:07:58",
+        "updatedAt": "2026-07-18T23:36:32.414Z"
+      },
+      {
+        "id": 41,
+        "name": "she",
+        "url": "https://www.sheapi.top",
+        "externalCheckinUrl": null,
+        "platform": "new-api",
+        "proxyUrl": null,
+        "useSystemProxy": false,
+        "customHeaders": null,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 29,
+        "globalWeight": 2,
+        "apiKey": null,
+        "postRefreshProbeEnabled": false,
+        "postRefreshProbeModel": "",
+        "postRefreshProbeScope": "single",
+        "postRefreshProbeLatencyThresholdMs": 0,
+        "createdAt": "2026-07-18 23:59:00",
+        "updatedAt": "2026-07-19T00:06:05.861Z"
+      },
+      {
+        "id": 43,
+        "name": "free",
+        "url": "https://free.lyclaude.site",
+        "externalCheckinUrl": null,
+        "platform": "new-api",
+        "proxyUrl": null,
+        "useSystemProxy": false,
+        "customHeaders": null,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 30,
+        "globalWeight": 1,
+        "apiKey": null,
+        "postRefreshProbeEnabled": false,
+        "postRefreshProbeModel": "",
+        "postRefreshProbeScope": "single",
+        "postRefreshProbeLatencyThresholdMs": 0,
+        "createdAt": "2026-07-19 00:18:39",
+        "updatedAt": "2026-07-19 00:18:39"
+      }
+    ],
+    "siteApiEndpoints": [
+      {
+        "id": 5,
+        "siteId": 11,
+        "url": "https://demo.voapi.top",
+        "enabled": true,
+        "sortOrder": 0,
+        "cooldownUntil": null,
+        "lastSelectedAt": null,
+        "lastFailedAt": null,
+        "lastFailureReason": null,
+        "createdAt": "2026-06-22 23:59:21",
+        "updatedAt": "2026-06-22 23:59:21"
+      }
+    ],
+    "accounts": [
+      {
+        "id": 13,
+        "siteId": 21,
+        "username": "linglo",
+        "accessToken": "XrLQ1ZcnuaQtQLL5aQELfhOfwtqP",
+        "apiToken": "bnGoFhTiNRHAg6b1t55qFm99CBDOBrBY2n5sHoQpMaSDhHr0",
+        "balance": 9.44364,
+        "quota": 18.693640000000002,
+        "unitCost": null,
+        "valueScore": 0,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 8,
+        "checkinEnabled": true,
+        "oauthProvider": null,
+        "oauthAccountKey": null,
+        "oauthProjectId": null,
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":21657,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":0.755632,\"updatedAt\":\"2026-07-19T01:00:01.568Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:05.483Z\"}}",
+        "createdAt": "2026-07-04 12:53:18",
+        "updatedAt": "2026-07-19T01:00:05.486Z"
+      },
+      {
+        "id": 14,
+        "siteId": 22,
+        "username": "linglo",
+        "accessToken": "tTrMk0+/E3zFxKJPSQGA4NgYjrScaFM=",
+        "apiToken": "sk-vPu7ZzpQGAt8VYPekDCgRynlVzr74cEffd7tkqu74MHYom3t",
+        "balance": 0.85899,
+        "quota": 7.067194000000001,
+        "unitCost": null,
+        "valueScore": 0,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 9,
+        "checkinEnabled": true,
+        "oauthProvider": null,
+        "oauthAccountKey": null,
+        "oauthProjectId": null,
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":9102,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":0.859454,\"updatedAt\":\"2026-07-19T01:00:01.611Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:06.250Z\"}}",
+        "createdAt": "2026-07-04 13:03:58",
+        "updatedAt": "2026-07-19T01:00:06.254Z"
+      },
+      {
+        "id": 15,
+        "siteId": 23,
+        "username": "linglo",
+        "accessToken": "lHJyeMBYTITQbxV7j7bNRzRlSTbd",
+        "apiToken": "sk-eYrwBawqqqL1MF2X84yYya0ZmIWT40JfN7kC2V6jyIODvK7f",
+        "balance": 1369.25343,
+        "quota": 1379.59526,
+        "unitCost": null,
+        "valueScore": 0,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 10,
+        "checkinEnabled": true,
+        "oauthProvider": null,
+        "oauthAccountKey": null,
+        "oauthProjectId": null,
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":2544,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":1171.53404,\"updatedAt\":\"2026-07-19T01:00:01.207Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:05.385Z\"}}",
+        "createdAt": "2026-07-04 13:24:17",
+        "updatedAt": "2026-07-19T01:00:05.394Z"
+      },
+      {
+        "id": 16,
+        "siteId": 24,
+        "username": "linglo",
+        "accessToken": "Mu8u5j7QyearQ298w4kEJj1v9arl",
+        "apiToken": "sk-nSipLndsSGv0ubLObh00x9uhvxvYm9C62WhSCEG4x3aT9Mlt",
+        "balance": 0,
+        "quota": 5.2906,
+        "unitCost": null,
+        "valueScore": 0,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 11,
+        "checkinEnabled": true,
+        "oauthProvider": null,
+        "oauthAccountKey": null,
+        "oauthProjectId": null,
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":93,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":0.9,\"updatedAt\":\"2026-07-19T01:00:01.616Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:07.769Z\"}}",
+        "createdAt": "2026-07-04 13:56:57",
+        "updatedAt": "2026-07-19T01:00:07.774Z"
+      },
+      {
+        "id": 17,
+        "siteId": 25,
+        "username": "linglo1231",
+        "accessToken": "r5QetTXvT2bla92jQBLaLLkKXwZ0Q4VJ",
+        "apiToken": "sk-mm0HaaH9eo4tSYAJjxj3bpGgRDQXuKdJXFNmjEjOWD0jZPiQ",
+        "balance": 90.637876,
+        "quota": 360.382792,
+        "unitCost": null,
+        "valueScore": 0,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 12,
+        "checkinEnabled": true,
+        "oauthProvider": null,
+        "oauthAccountKey": null,
+        "oauthProjectId": null,
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":1469,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":3.365554,\"updatedAt\":\"2026-07-19T01:00:03.019Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:07.776Z\"}}",
+        "createdAt": "2026-07-05 13:27:38",
+        "updatedAt": "2026-07-19T01:00:07.777Z"
+      },
+      {
+        "id": 21,
+        "siteId": 29,
+        "username": "linglo",
+        "accessToken": "ITj6i9QZVI9eyehI2o2MRylFmdCkwQ==",
+        "apiToken": "sk-e45b6oRlCzEb5J1UG6i32GazCrzWfrl9yLHaYNuyKpP0IoSH",
+        "balance": 11.499634,
+        "quota": 12.239676000000001,
+        "unitCost": null,
+        "valueScore": 0,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 16,
+        "checkinEnabled": true,
+        "oauthProvider": null,
+        "oauthAccountKey": null,
+        "oauthProjectId": null,
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":4095,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":0.49251,\"updatedAt\":\"2026-07-19T01:00:04.007Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:14.805Z\"}}",
+        "createdAt": "2026-07-12 07:48:12",
+        "updatedAt": "2026-07-19T01:00:14.812Z"
+      },
+      {
+        "id": 22,
+        "siteId": 30,
+        "username": "linglo",
+        "accessToken": "Gtxyu6CRBd1xEDvUKjgz96upyPm0fBg=",
+        "apiToken": "sk-AXEXeUzGtvlCrzygQA5pWkZmVBirdz1ZSiFxmntLMMO1pbEK",
+        "balance": 1.86119,
+        "quota": 1.86119,
+        "unitCost": null,
+        "valueScore": 0,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 17,
+        "checkinEnabled": true,
+        "oauthProvider": null,
+        "oauthAccountKey": null,
+        "oauthProjectId": null,
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":3125,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":0.129458,\"updatedAt\":\"2026-07-19T01:00:01.282Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:17.900Z\"}}",
+        "createdAt": "2026-07-12 09:19:45",
+        "updatedAt": "2026-07-19T01:00:17.904Z"
+      },
+      {
+        "id": 28,
+        "siteId": 39,
+        "username": "linglo",
+        "accessToken": "LyQWGKRWfNXhIzeOXJMaZtuNj3Xe",
+        "apiToken": "sk-tc8ALrKeZlw1v4RExBdR41G4eQMmusdYRR7MpFgkQrMdq6Ay",
+        "balance": 144.992316,
+        "quota": 145,
+        "unitCost": null,
+        "valueScore": 0,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 23,
+        "checkinEnabled": true,
+        "oauthProvider": null,
+        "oauthAccountKey": null,
+        "oauthProjectId": null,
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":7590,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":20,\"updatedAt\":\"2026-07-19T01:00:02.971Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:41.181Z\"}}",
+        "createdAt": "2026-07-18 01:20:48",
+        "updatedAt": "2026-07-19T01:00:41.185Z"
+      },
+      {
+        "id": 29,
+        "siteId": 40,
+        "username": "linglo",
+        "accessToken": "bLfL2LMwDuSJop47GCsaw4Nmag3VEQ==",
+        "apiToken": "sk-hqSMyck1kd29DHrzNAeKyXCxUhi311LjOEs0iMe9QkPpwVB6",
+        "balance": 480.1354,
+        "quota": 480.1376,
+        "unitCost": null,
+        "valueScore": 0,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 24,
+        "checkinEnabled": true,
+        "oauthProvider": null,
+        "oauthAccountKey": null,
+        "oauthProjectId": null,
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":1045,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":40.468952,\"latest\":40.468952,\"updatedAt\":\"2026-07-19T01:00:01.629Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:16.406Z\"}}",
+        "createdAt": "2026-07-18 23:09:15",
+        "updatedAt": "2026-07-19T01:00:16.409Z"
+      },
+      {
+        "id": 30,
+        "siteId": 41,
+        "username": "linglo",
+        "accessToken": "8J+q5ffWijNk6CVRyyNkvHFPJWZro3o=",
+        "apiToken": "sk-krzbQM5Tjo6yC8pRrqrfzPhfzoX6XGbExann5IBrPi8dDVMo",
+        "balance": 1.45847,
+        "quota": 1.45847,
+        "unitCost": null,
+        "valueScore": 0,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 25,
+        "checkinEnabled": true,
+        "oauthProvider": null,
+        "oauthAccountKey": null,
+        "oauthProjectId": null,
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":892,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":0,\"updatedAt\":\"2026-07-19T01:00:01.665Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:50.289Z\"}}",
+        "createdAt": "2026-07-19 00:01:23",
+        "updatedAt": "2026-07-19T01:00:50.289Z"
+      },
+      {
+        "id": 32,
+        "siteId": 43,
+        "username": "linglo",
+        "accessToken": "R9fLN8UmmEcb5BEC0w8/hFfuga2fHCE=",
+        "apiToken": "sk-wwUgq4Dmq2X1WJB4OYprb18fKIH12tGQE42zlhmgr4EJi9yd",
+        "balance": 399.817422,
+        "quota": 400,
+        "unitCost": null,
+        "valueScore": 0,
+        "status": "active",
+        "isPinned": false,
+        "sortOrder": 26,
+        "checkinEnabled": true,
+        "oauthProvider": null,
+        "oauthAccountKey": null,
+        "oauthProjectId": null,
+        "extraConfig": "{\"credentialMode\":\"session\",\"platformUserId\":29126,\"todayIncomeSnapshot\":{\"day\":\"2026-07-19\",\"baseline\":0,\"latest\":200,\"updatedAt\":\"2026-07-19T01:00:01.678Z\"},\"runtimeHealth\":{\"state\":\"healthy\",\"reason\":\"模型探测成功\",\"source\":\"model-discovery\",\"checkedAt\":\"2026-07-19T01:00:43.174Z\"}}",
+        "createdAt": "2026-07-19 00:20:15",
+        "updatedAt": "2026-07-19T01:00:43.176Z"
+      }
+    ],
+    "accountTokens": [
+      {
+        "id": 15,
+        "accountId": 13,
+        "name": "default",
+        "token": "bnGoFhTiNRHAg6b1t55qFm99CBDOBrBY2n5sHoQpMaSDhHr0",
+        "tokenGroup": "default",
+        "valueStatus": "ready",
+        "source": "legacy",
+        "enabled": false,
+        "isDefault": true,
+        "createdAt": "2026-07-04T12:55:16.649Z",
+        "updatedAt": "2026-07-19T01:00:04.296Z"
+      },
+      {
+        "id": 17,
+        "accountId": 15,
+        "name": "linglo",
+        "token": "sk-eYrwBawqqqL1MF2X84yYya0ZmIWT40JfN7kC2V6jyIODvK7f",
+        "tokenGroup": "default",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": true,
+        "createdAt": "2026-07-04T13:24:18.298Z",
+        "updatedAt": "2026-07-19T00:24:33.363Z"
+      },
+      {
+        "id": 21,
+        "accountId": 21,
+        "name": "linglo",
+        "token": "sk-e45b6oRlCzEb5J1UG6i32GazCrzWfrl9yLHaYNuyKpP0IoSH",
+        "tokenGroup": "公益",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": true,
+        "createdAt": "2026-07-12T07:48:12.891Z",
+        "updatedAt": "2026-07-19T00:38:44.396Z"
+      },
+      {
+        "id": 22,
+        "accountId": 22,
+        "name": "linglo",
+        "token": "sk-AXEXeUzGtvlCrzygQA5pWkZmVBirdz1ZSiFxmntLMMO1pbEK",
+        "tokenGroup": "codex-特价",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": true,
+        "createdAt": "2026-07-12T09:19:45.852Z",
+        "updatedAt": "2026-07-19T00:42:36.586Z"
+      },
+      {
+        "id": 30,
+        "accountId": 28,
+        "name": "linglo-plus",
+        "token": "sk-fwXdKJK92YTs81O8f8ULY7R5c22Eg87LuVzjva6U4KM5fecB",
+        "tokenGroup": "Plus&team混池",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": false,
+        "createdAt": "2026-07-18T01:20:49.604Z",
+        "updatedAt": "2026-07-19T00:27:15.979Z"
+      },
+      {
+        "id": 32,
+        "accountId": 29,
+        "name": "linglo",
+        "token": "sk-hqSMyck1kd29DHrzNAeKyXCxUhi311LjOEs0iMe9QkPpwVB6",
+        "tokenGroup": "公益分组",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": true,
+        "createdAt": "2026-07-18T23:09:16.105Z",
+        "updatedAt": "2026-07-19T00:46:47.155Z"
+      },
+      {
+        "id": 33,
+        "accountId": 32,
+        "name": "linglo",
+        "token": "sk-wwUgq4Dmq2X1WJB4OYprb18fKIH12tGQE42zlhmgr4EJi9yd",
+        "tokenGroup": "default",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": true,
+        "createdAt": "2026-07-19T00:20:15.530Z",
+        "updatedAt": "2026-07-19T00:44:39.118Z"
+      },
+      {
+        "id": 34,
+        "accountId": 14,
+        "name": "linglo-gemini",
+        "token": "sk-nuOw3rS6MdEu3bkz8rDzpgZOk7SgdEVZjv91rSYa2uDFA66M",
+        "tokenGroup": "gemini-stu",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": false,
+        "createdAt": "2026-07-19T00:23:56.481Z",
+        "updatedAt": "2026-07-19T00:41:33.528Z"
+      },
+      {
+        "id": 35,
+        "accountId": 14,
+        "name": "linglo-claude",
+        "token": "sk-vPu7ZzpQGAt8VYPekDCgRynlVzr74cEffd7tkqu74MHYom3t",
+        "tokenGroup": "codex-stu",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": false,
+        "createdAt": "2026-07-19T00:23:56.481Z",
+        "updatedAt": "2026-07-19T00:41:19.510Z"
+      },
+      {
+        "id": 36,
+        "accountId": 14,
+        "name": "linglo",
+        "token": "sk-vPu7ZzpQGAt8VYPekDCgRynlVzr74cEffd7tkqu74MHYom3t",
+        "tokenGroup": "codex",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": true,
+        "createdAt": "2026-07-19T00:23:56.481Z",
+        "updatedAt": "2026-07-19T00:40:59.700Z"
+      },
+      {
+        "id": 37,
+        "accountId": 16,
+        "name": "linglo",
+        "token": "sk-nSipLndsSGv0ubLObh00x9uhvxvYm9C62WhSCEG4x3aT9Mlt",
+        "tokenGroup": "default",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": true,
+        "createdAt": "2026-07-19T00:23:57.236Z",
+        "updatedAt": "2026-07-19T00:29:32.392Z"
+      },
+      {
+        "id": 38,
+        "accountId": 17,
+        "name": "linglo",
+        "token": "sk-mm0HaaH9eo4tSYAJjxj3bpGgRDQXuKdJXFNmjEjOWD0jZPiQ",
+        "tokenGroup": "体验gptpro",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": true,
+        "createdAt": "2026-07-19T00:23:57.748Z",
+        "updatedAt": "2026-07-19T00:53:00.561Z"
+      },
+      {
+        "id": 39,
+        "accountId": 21,
+        "name": "linglogptofficial",
+        "token": "sk-uu8WZCsbir9MLIsSfRGJiZhFRQ9is78MjfHis83a9cLwiPgp",
+        "tokenGroup": "GPT官转",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": false,
+        "createdAt": "2026-07-19T00:23:58.104Z",
+        "updatedAt": "2026-07-19T00:38:44.396Z"
+      },
+      {
+        "id": 40,
+        "accountId": 21,
+        "name": "linglos",
+        "token": "sk-eW3QsJpYMw1wt5GHxKagb2GV8JsxV889hay3rLrMzpMsdV8W",
+        "tokenGroup": "福利（可用群内会通知）",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": false,
+        "createdAt": "2026-07-19T00:23:58.104Z",
+        "updatedAt": "2026-07-19T00:38:44.396Z"
+      },
+      {
+        "id": 41,
+        "accountId": 21,
+        "name": "linglogpt",
+        "token": "sk-dQBPBI1E3EXg0tPL45jxbALUeD6fLiunc7Pfvs81bQm9NiJQ",
+        "tokenGroup": "GPT",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": false,
+        "createdAt": "2026-07-19T00:23:58.104Z",
+        "updatedAt": "2026-07-19T00:38:44.396Z"
+      },
+      {
+        "id": 42,
+        "accountId": 21,
+        "name": "linglo-gemini",
+        "token": "sk-jVJJZlpBfCaaCPr55UvOebBiHexR1sb2k8Zkt0yfPRBaLEu9",
+        "tokenGroup": "Gemini",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": false,
+        "createdAt": "2026-07-19T00:23:58.104Z",
+        "updatedAt": "2026-07-19T00:38:44.396Z"
+      },
+      {
+        "id": 43,
+        "accountId": 21,
+        "name": "linglo-gpt",
+        "token": "sk-dQBPBI1E3EXg0tPL45jxbALUeD6fLiunc7Pfvs81bQm9NiJQ",
+        "tokenGroup": "GPTPro",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": false,
+        "createdAt": "2026-07-19T00:23:58.104Z",
+        "updatedAt": "2026-07-19T00:38:44.396Z"
+      },
+      {
+        "id": 44,
+        "accountId": 22,
+        "name": "linglo-gemini",
+        "token": "sk-R4mM3RuDxZb9JLD6FbkinDtVhNJ7FSgoazJGbPJfOvxUUltB",
+        "tokenGroup": "gemini",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": false,
+        "createdAt": "2026-07-19T00:23:59.021Z",
+        "updatedAt": "2026-07-19T00:43:15.965Z"
+      },
+      {
+        "id": 45,
+        "accountId": 22,
+        "name": "linglo-claude",
+        "token": "sk-FQIw4Ys2ATbED6IdL5RWItAPOuVwbAV0TGavEYbN1HHwTphx",
+        "tokenGroup": "claude-kiro",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": false,
+        "createdAt": "2026-07-19T00:23:59.021Z",
+        "updatedAt": "2026-07-19T00:42:58.477Z"
+      },
+      {
+        "id": 46,
+        "accountId": 28,
+        "name": "linglo",
+        "token": "sk-tc8ALrKeZlw1v4RExBdR41G4eQMmusdYRR7MpFgkQrMdq6Ay",
+        "tokenGroup": "default",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": true,
+        "createdAt": "2026-07-19T00:23:59.507Z",
+        "updatedAt": "2026-07-19T00:27:15.979Z"
+      },
+      {
+        "id": 47,
+        "accountId": 30,
+        "name": "linglo-gpt",
+        "token": "sk-HJGyO5bNz5hZ3VrvpJ8Mzd5AkYnnoCQHrkq7yDFenGzY89Cg",
+        "tokenGroup": "codex_0719",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": false,
+        "createdAt": "2026-07-19T00:24:00.168Z",
+        "updatedAt": "2026-07-19T00:51:07.750Z"
+      },
+      {
+        "id": 48,
+        "accountId": 30,
+        "name": "linglo",
+        "token": "sk-WGelo3lqdo8cq8vBYwX2b7WostOmSmOOC9OdfX602C3KTbVk",
+        "tokenGroup": "default",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": false,
+        "createdAt": "2026-07-19T00:24:00.168Z",
+        "updatedAt": "2026-07-19T00:51:07.750Z"
+      },
+      {
+        "id": 49,
+        "accountId": 30,
+        "name": "linglo-pro",
+        "token": "sk-hGyyD92EPnZrzsBvDGWkOifwgw74x4kunUrYqeoLL1w3qNMh",
+        "tokenGroup": "pro",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": false,
+        "createdAt": "2026-07-19T00:24:00.168Z",
+        "updatedAt": "2026-07-19T00:51:28.578Z"
+      },
+      {
+        "id": 50,
+        "accountId": 30,
+        "name": "linglo-plus",
+        "token": "sk-krzbQM5Tjo6yC8pRrqrfzPhfzoX6XGbExann5IBrPi8dDVMo",
+        "tokenGroup": "plus",
+        "valueStatus": "ready",
+        "source": "sync",
+        "enabled": true,
+        "isDefault": true,
+        "createdAt": "2026-07-19T00:24:00.168Z",
+        "updatedAt": "2026-07-19T00:51:07.750Z"
+      }
+    ],
+    "tokenRoutes": [
+      {
+        "id": 162,
+        "modelPattern": "metai",
+        "displayName": "metai",
+        "displayIcon": null,
+        "routeMode": "explicit_group",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "stable_first",
+        "enabled": true,
+        "createdAt": "2026-06-28 23:49:15",
+        "updatedAt": "2026-07-19T00:55:02.286Z"
+      },
+      {
+        "id": 675,
+        "modelPattern": "claude",
+        "displayName": "claude",
+        "displayIcon": null,
+        "routeMode": "explicit_group",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "stable_first",
+        "enabled": true,
+        "createdAt": "2026-07-12 23:48:46",
+        "updatedAt": "2026-07-19T00:59:34.547Z"
+      },
+      {
+        "id": 676,
+        "modelPattern": "gpt",
+        "displayName": "gpt",
+        "displayIcon": null,
+        "routeMode": "explicit_group",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "stable_first",
+        "enabled": true,
+        "createdAt": "2026-07-12 23:50:14",
+        "updatedAt": "2026-07-19T00:58:16.679Z"
+      },
+      {
+        "id": 720,
+        "modelPattern": "gemini",
+        "displayName": "gemini",
+        "displayIcon": null,
+        "routeMode": "explicit_group",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-15 22:49:21",
+        "updatedAt": "2026-07-19T00:58:43.246Z"
+      },
+      {
+        "id": 758,
+        "modelPattern": "gpt-5.4",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "stable_first",
+        "enabled": true,
+        "createdAt": "2026-07-18 01:00:49",
+        "updatedAt": "2026-07-19T00:54:39.895Z"
+      },
+      {
+        "id": 765,
+        "modelPattern": "gpt-5.5",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "stable_first",
+        "enabled": true,
+        "createdAt": "2026-07-18 01:00:49",
+        "updatedAt": "2026-07-19T00:54:39.895Z"
+      },
+      {
+        "id": 800,
+        "modelPattern": "grok-4.20-fast",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "stable_first",
+        "enabled": true,
+        "createdAt": "2026-07-18 01:00:49",
+        "updatedAt": "2026-07-19T00:54:39.895Z"
+      },
+      {
+        "id": 801,
+        "modelPattern": "grok-4.3-fast",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "stable_first",
+        "enabled": true,
+        "createdAt": "2026-07-18 01:00:49",
+        "updatedAt": "2026-07-19T00:54:39.895Z"
+      },
+      {
+        "id": 803,
+        "modelPattern": "z-ai/glm-5.2",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "stable_first",
+        "enabled": true,
+        "createdAt": "2026-07-18 01:00:49",
+        "updatedAt": "2026-07-19T00:54:39.895Z"
+      },
+      {
+        "id": 805,
+        "modelPattern": "agnes-2.0-flash",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "stable_first",
+        "enabled": true,
+        "createdAt": "2026-07-18 01:00:49",
+        "updatedAt": "2026-07-19T00:59:34.555Z"
+      },
+      {
+        "id": 808,
+        "modelPattern": "gpt-5-5",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "stable_first",
+        "enabled": true,
+        "createdAt": "2026-07-18 01:00:49",
+        "updatedAt": "2026-07-19T00:54:39.895Z"
+      },
+      {
+        "id": 890,
+        "modelPattern": "gpt-5-3",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "stable_first",
+        "enabled": true,
+        "createdAt": "2026-07-18 22:17:20",
+        "updatedAt": "2026-07-19T00:54:39.895Z"
+      },
+      {
+        "id": 892,
+        "modelPattern": "gemini-2.0-flash",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "stable_first",
+        "enabled": true,
+        "createdAt": "2026-07-18 22:48:45",
+        "updatedAt": "2026-07-19T00:54:39.895Z"
+      },
+      {
+        "id": 898,
+        "modelPattern": "gemini-3-flash-preview",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 899,
+        "modelPattern": "gpt-5.6-luna",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 900,
+        "modelPattern": "gpt-5.6-sol",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 901,
+        "modelPattern": "gpt-5.6-terra",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 902,
+        "modelPattern": "[free]deepseek-v4-flash",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 903,
+        "modelPattern": "[free]deepseek-v4-pro",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 904,
+        "modelPattern": "[free]gemini-2.5-flash",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 905,
+        "modelPattern": "[free]gemini-2.5-pro",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 906,
+        "modelPattern": "[free]gemini-3.1-pro-preview",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 907,
+        "modelPattern": "[free]gemini-3.5-flash",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 908,
+        "modelPattern": "[free]glm-5.2",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 909,
+        "modelPattern": "[free]gpt-5.5",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 910,
+        "modelPattern": "[free]gpt-image-2",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 911,
+        "modelPattern": "[free]grok-4.5",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 912,
+        "modelPattern": "codex-auto-review",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 913,
+        "modelPattern": "gpt-5.2",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 914,
+        "modelPattern": "gemini-3-flash",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 915,
+        "modelPattern": "Deepseek-v4-flash",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 916,
+        "modelPattern": "Deepseek-v4-pro",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 917,
+        "modelPattern": "GLM5",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 918,
+        "modelPattern": "Kimi-k2.6",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 919,
+        "modelPattern": "Qwen--3.5-max",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 920,
+        "modelPattern": "glm-5.2",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 921,
+        "modelPattern": "minimax-m3",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 922,
+        "modelPattern": "step-3.7-flash",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 923,
+        "modelPattern": "gpt-5.4-openai-compact",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 924,
+        "modelPattern": "gpt-5.5-codex-auto-review",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 925,
+        "modelPattern": "gemini-3.1-flash-lite-preview",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 926,
+        "modelPattern": "gemini-3.1-pro",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 927,
+        "modelPattern": "gemini-3.1-pro-high",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 928,
+        "modelPattern": "gemini-3.1-pro-preview",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 929,
+        "modelPattern": "gemini-3.5-flash",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 930,
+        "modelPattern": "claude-opus-4-5",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 931,
+        "modelPattern": "claude-opus-4-7",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 932,
+        "modelPattern": "gpt-5.4-mini",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      },
+      {
+        "id": 933,
+        "modelPattern": "gpt-5.5-openai-compact",
+        "displayName": null,
+        "displayIcon": null,
+        "routeMode": "pattern",
+        "modelMapping": null,
+        "decisionSnapshot": null,
+        "decisionRefreshedAt": null,
+        "routingStrategy": "weighted",
+        "enabled": true,
+        "createdAt": "2026-07-19 01:00:50",
+        "updatedAt": "2026-07-19 01:00:50"
+      }
+    ],
+    "routeChannels": [
+      {
+        "id": 1079,
+        "routeId": 676,
+        "accountId": 14,
+        "tokenId": null,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1080,
+        "routeId": 676,
+        "accountId": 16,
+        "tokenId": null,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1239,
+        "routeId": 800,
+        "accountId": 15,
+        "tokenId": 17,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1240,
+        "routeId": 801,
+        "accountId": 15,
+        "tokenId": 17,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1242,
+        "routeId": 803,
+        "accountId": 15,
+        "tokenId": 17,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1245,
+        "routeId": 805,
+        "accountId": 21,
+        "tokenId": 21,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1248,
+        "routeId": 808,
+        "accountId": 21,
+        "tokenId": 21,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1350,
+        "routeId": 758,
+        "accountId": 28,
+        "tokenId": 30,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1356,
+        "routeId": 765,
+        "accountId": 28,
+        "tokenId": 30,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1438,
+        "routeId": 890,
+        "accountId": 21,
+        "tokenId": 21,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1440,
+        "routeId": 892,
+        "accountId": 15,
+        "tokenId": 17,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1446,
+        "routeId": 898,
+        "accountId": 14,
+        "tokenId": 34,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1447,
+        "routeId": 898,
+        "accountId": 22,
+        "tokenId": 44,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1448,
+        "routeId": 899,
+        "accountId": 14,
+        "tokenId": 35,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1449,
+        "routeId": 899,
+        "accountId": 14,
+        "tokenId": 36,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1450,
+        "routeId": 899,
+        "accountId": 22,
+        "tokenId": 22,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1451,
+        "routeId": 899,
+        "accountId": 30,
+        "tokenId": 47,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1452,
+        "routeId": 899,
+        "accountId": 32,
+        "tokenId": 33,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1453,
+        "routeId": 899,
+        "accountId": 30,
+        "tokenId": 49,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1454,
+        "routeId": 899,
+        "accountId": 30,
+        "tokenId": 50,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1455,
+        "routeId": 900,
+        "accountId": 14,
+        "tokenId": 35,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1456,
+        "routeId": 900,
+        "accountId": 14,
+        "tokenId": 36,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1457,
+        "routeId": 900,
+        "accountId": 21,
+        "tokenId": 39,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1458,
+        "routeId": 900,
+        "accountId": 21,
+        "tokenId": 40,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1459,
+        "routeId": 900,
+        "accountId": 21,
+        "tokenId": 41,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1460,
+        "routeId": 900,
+        "accountId": 21,
+        "tokenId": 43,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1461,
+        "routeId": 900,
+        "accountId": 22,
+        "tokenId": 22,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1462,
+        "routeId": 900,
+        "accountId": 30,
+        "tokenId": 47,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1463,
+        "routeId": 900,
+        "accountId": 32,
+        "tokenId": 33,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1464,
+        "routeId": 900,
+        "accountId": 30,
+        "tokenId": 49,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1465,
+        "routeId": 900,
+        "accountId": 30,
+        "tokenId": 50,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1466,
+        "routeId": 901,
+        "accountId": 14,
+        "tokenId": 35,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1467,
+        "routeId": 901,
+        "accountId": 14,
+        "tokenId": 36,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1468,
+        "routeId": 901,
+        "accountId": 22,
+        "tokenId": 22,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1469,
+        "routeId": 901,
+        "accountId": 30,
+        "tokenId": 47,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1470,
+        "routeId": 901,
+        "accountId": 32,
+        "tokenId": 33,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1471,
+        "routeId": 901,
+        "accountId": 30,
+        "tokenId": 49,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1472,
+        "routeId": 901,
+        "accountId": 30,
+        "tokenId": 50,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1473,
+        "routeId": 902,
+        "accountId": 16,
+        "tokenId": 37,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1474,
+        "routeId": 903,
+        "accountId": 16,
+        "tokenId": 37,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1475,
+        "routeId": 904,
+        "accountId": 16,
+        "tokenId": 37,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1476,
+        "routeId": 905,
+        "accountId": 16,
+        "tokenId": 37,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1477,
+        "routeId": 906,
+        "accountId": 16,
+        "tokenId": 37,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1478,
+        "routeId": 907,
+        "accountId": 16,
+        "tokenId": 37,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1479,
+        "routeId": 908,
+        "accountId": 16,
+        "tokenId": 37,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1480,
+        "routeId": 909,
+        "accountId": 16,
+        "tokenId": 37,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1481,
+        "routeId": 910,
+        "accountId": 16,
+        "tokenId": 37,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1482,
+        "routeId": 911,
+        "accountId": 16,
+        "tokenId": 37,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1483,
+        "routeId": 758,
+        "accountId": 17,
+        "tokenId": 38,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1484,
+        "routeId": 758,
+        "accountId": 21,
+        "tokenId": 40,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1485,
+        "routeId": 758,
+        "accountId": 21,
+        "tokenId": 41,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1486,
+        "routeId": 758,
+        "accountId": 21,
+        "tokenId": 43,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1487,
+        "routeId": 758,
+        "accountId": 22,
+        "tokenId": 22,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1488,
+        "routeId": 758,
+        "accountId": 30,
+        "tokenId": 47,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1489,
+        "routeId": 758,
+        "accountId": 30,
+        "tokenId": 49,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1490,
+        "routeId": 758,
+        "accountId": 30,
+        "tokenId": 50,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1491,
+        "routeId": 765,
+        "accountId": 17,
+        "tokenId": 38,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1492,
+        "routeId": 765,
+        "accountId": 21,
+        "tokenId": 39,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1493,
+        "routeId": 765,
+        "accountId": 21,
+        "tokenId": 40,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1494,
+        "routeId": 765,
+        "accountId": 21,
+        "tokenId": 41,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1495,
+        "routeId": 765,
+        "accountId": 21,
+        "tokenId": 43,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1496,
+        "routeId": 765,
+        "accountId": 22,
+        "tokenId": 22,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1497,
+        "routeId": 765,
+        "accountId": 30,
+        "tokenId": 47,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1498,
+        "routeId": 765,
+        "accountId": 32,
+        "tokenId": 33,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1499,
+        "routeId": 765,
+        "accountId": 30,
+        "tokenId": 49,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1500,
+        "routeId": 765,
+        "accountId": 30,
+        "tokenId": 50,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1501,
+        "routeId": 912,
+        "accountId": 21,
+        "tokenId": 40,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1502,
+        "routeId": 912,
+        "accountId": 21,
+        "tokenId": 41,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1503,
+        "routeId": 912,
+        "accountId": 21,
+        "tokenId": 43,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1504,
+        "routeId": 913,
+        "accountId": 21,
+        "tokenId": 40,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1505,
+        "routeId": 914,
+        "accountId": 21,
+        "tokenId": 42,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1506,
+        "routeId": 914,
+        "accountId": 22,
+        "tokenId": 44,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1507,
+        "routeId": 915,
+        "accountId": 29,
+        "tokenId": 32,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1508,
+        "routeId": 916,
+        "accountId": 29,
+        "tokenId": 32,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1509,
+        "routeId": 917,
+        "accountId": 29,
+        "tokenId": 32,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1510,
+        "routeId": 918,
+        "accountId": 29,
+        "tokenId": 32,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1511,
+        "routeId": 919,
+        "accountId": 29,
+        "tokenId": 32,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1512,
+        "routeId": 920,
+        "accountId": 29,
+        "tokenId": 32,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1513,
+        "routeId": 921,
+        "accountId": 29,
+        "tokenId": 32,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1514,
+        "routeId": 922,
+        "accountId": 29,
+        "tokenId": 32,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1515,
+        "routeId": 923,
+        "accountId": 22,
+        "tokenId": 22,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1516,
+        "routeId": 924,
+        "accountId": 22,
+        "tokenId": 22,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1517,
+        "routeId": 925,
+        "accountId": 22,
+        "tokenId": 44,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1518,
+        "routeId": 926,
+        "accountId": 22,
+        "tokenId": 44,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1519,
+        "routeId": 927,
+        "accountId": 22,
+        "tokenId": 44,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1520,
+        "routeId": 928,
+        "accountId": 22,
+        "tokenId": 44,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1521,
+        "routeId": 929,
+        "accountId": 22,
+        "tokenId": 44,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1522,
+        "routeId": 930,
+        "accountId": 22,
+        "tokenId": 45,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1523,
+        "routeId": 931,
+        "accountId": 22,
+        "tokenId": 45,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1524,
+        "routeId": 932,
+        "accountId": 30,
+        "tokenId": 47,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1525,
+        "routeId": 932,
+        "accountId": 30,
+        "tokenId": 49,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1526,
+        "routeId": 932,
+        "accountId": 30,
+        "tokenId": 50,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      },
+      {
+        "id": 1527,
+        "routeId": 933,
+        "accountId": 32,
+        "tokenId": 33,
+        "oauthRouteUnitId": null,
+        "sourceModel": null,
+        "priority": 0,
+        "weight": 10,
+        "enabled": true,
+        "manualOverride": false
+      }
+    ],
+    "routeGroupSources": [
+      {
+        "id": 519,
+        "groupRouteId": 162,
+        "sourceRouteId": 758
+      },
+      {
+        "id": 520,
+        "groupRouteId": 162,
+        "sourceRouteId": 765
+      },
+      {
+        "id": 524,
+        "groupRouteId": 162,
+        "sourceRouteId": 800
+      },
+      {
+        "id": 525,
+        "groupRouteId": 162,
+        "sourceRouteId": 801
+      },
+      {
+        "id": 526,
+        "groupRouteId": 162,
+        "sourceRouteId": 803
+      },
+      {
+        "id": 527,
+        "groupRouteId": 162,
+        "sourceRouteId": 808
+      },
+      {
+        "id": 529,
+        "groupRouteId": 162,
+        "sourceRouteId": 890
+      },
+      {
+        "id": 530,
+        "groupRouteId": 162,
+        "sourceRouteId": 892
+      },
+      {
+        "id": 531,
+        "groupRouteId": 676,
+        "sourceRouteId": 758
+      },
+      {
+        "id": 532,
+        "groupRouteId": 676,
+        "sourceRouteId": 765
+      },
+      {
+        "id": 536,
+        "groupRouteId": 676,
+        "sourceRouteId": 808
+      },
+      {
+        "id": 537,
+        "groupRouteId": 676,
+        "sourceRouteId": 890
+      },
+      {
+        "id": 538,
+        "groupRouteId": 720,
+        "sourceRouteId": 892
+      },
+      {
+        "id": 539,
+        "groupRouteId": 675,
+        "sourceRouteId": 758
+      },
+      {
+        "id": 540,
+        "groupRouteId": 675,
+        "sourceRouteId": 765
+      },
+      {
+        "id": 544,
+        "groupRouteId": 675,
+        "sourceRouteId": 800
+      },
+      {
+        "id": 545,
+        "groupRouteId": 675,
+        "sourceRouteId": 801
+      },
+      {
+        "id": 546,
+        "groupRouteId": 675,
+        "sourceRouteId": 803
+      },
+      {
+        "id": 547,
+        "groupRouteId": 675,
+        "sourceRouteId": 805
+      },
+      {
+        "id": 548,
+        "groupRouteId": 675,
+        "sourceRouteId": 808
+      },
+      {
+        "id": 549,
+        "groupRouteId": 675,
+        "sourceRouteId": 890
+      },
+      {
+        "id": 550,
+        "groupRouteId": 675,
+        "sourceRouteId": 892
+      }
+    ],
+    "siteDisabledModels": [
+      {
+        "siteId": 14,
+        "modelName": "claude-haiku-4-5"
+      },
+      {
+        "siteId": 14,
+        "modelName": "claude-opus-4-5"
+      },
+      {
+        "siteId": 14,
+        "modelName": "claude-sonnet-4-5"
+      },
+      {
+        "siteId": 14,
+        "modelName": "claude-sonnet-4-6"
+      },
+      {
+        "siteId": 14,
+        "modelName": "gemini-3.5-flash"
+      },
+      {
+        "siteId": 14,
+        "modelName": "gpt-4o"
+      },
+      {
+        "siteId": 14,
+        "modelName": "gpt-5"
+      },
+      {
+        "siteId": 14,
+        "modelName": "gpt-5-mini"
+      },
+      {
+        "siteId": 14,
+        "modelName": "o3"
+      },
+      {
+        "siteId": 21,
+        "modelName": "claude-haiku-4-5-20251001"
+      },
+      {
+        "siteId": 21,
+        "modelName": "claude-opus-4-5-20251101"
+      },
+      {
+        "siteId": 21,
+        "modelName": "claude-opus-4-5-20251101-thinking"
+      },
+      {
+        "siteId": 21,
+        "modelName": "claude-sonnet-4-5-20250929"
+      },
+      {
+        "siteId": 21,
+        "modelName": "claude-sonnet-4-5-20250929-thinking"
+      },
+      {
+        "siteId": 21,
+        "modelName": "deepseek-v3.2"
+      },
+      {
+        "siteId": 21,
+        "modelName": "gemini-2.5-flash"
+      },
+      {
+        "siteId": 21,
+        "modelName": "gemini-2.5-flash-lite-preview-09-2025"
+      },
+      {
+        "siteId": 21,
+        "modelName": "gemini-2.5-flash-preview-09-2025"
+      },
+      {
+        "siteId": 21,
+        "modelName": "gemini-3-flash-preview"
+      },
+      {
+        "siteId": 21,
+        "modelName": "gemini-3-pro-preview"
+      },
+      {
+        "siteId": 21,
+        "modelName": "gemini-3.1-flash-lite-preview"
+      },
+      {
+        "siteId": 21,
+        "modelName": "gemini-3.1-pro-preview"
+      },
+      {
+        "siteId": 21,
+        "modelName": "gpt-4o"
+      },
+      {
+        "siteId": 21,
+        "modelName": "gpt-4o-mini"
+      },
+      {
+        "siteId": 21,
+        "modelName": "gpt-5.1-chat"
+      },
+      {
+        "siteId": 21,
+        "modelName": "gpt-5.1-codex-mini"
+      },
+      {
+        "siteId": 21,
+        "modelName": "grok-4-fast"
+      },
+      {
+        "siteId": 21,
+        "modelName": "grok-4.1"
+      },
+      {
+        "siteId": 22,
+        "modelName": "claude-fable-5"
+      },
+      {
+        "siteId": 22,
+        "modelName": "claude-haiku-4-5-20251001"
+      },
+      {
+        "siteId": 22,
+        "modelName": "claude-opus-4-6"
+      },
+      {
+        "siteId": 22,
+        "modelName": "claude-opus-4-8"
+      },
+      {
+        "siteId": 22,
+        "modelName": "claude-sonnet-4-6"
+      },
+      {
+        "siteId": 22,
+        "modelName": "claude-sonnet-5"
+      },
+      {
+        "siteId": 22,
+        "modelName": "codex-auto-review"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gemini-2.5-flash"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gemini-2.5-flash-image"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gemini-2.5-flash-image-office"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gemini-2.5-flash-lite"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gemini-3-pro-image-preview"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gemini-3-pro-image-preview-office"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gemini-3.1-flash-image-preview"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gemini-3.1-flash-image-preview-office"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gemini-3.1-flash-lite-preview"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gemini-3.1-pro-preview"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gemini-3.1-pro-preview-customtools"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gemini-3.5-flash"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gpt-5.2"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gpt-5.3-codex"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gpt-5.3-codex-high"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gpt-5.3-codex-low"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gpt-5.3-codex-medium"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gpt-5.3-codex-spark"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gpt-5.3-codex-xhigh"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gpt-5.4"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gpt-5.4-mini"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gpt-5.4-openai-compact"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gpt-5.5"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gpt-5.5-openai-compact"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gpt-5.5-pro"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gpt-image-1"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gpt-image-1.5"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gpt-image-2"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gpt-image-2-1k"
+      },
+      {
+        "siteId": 22,
+        "modelName": "gpt-image-2-4k"
+      },
+      {
+        "siteId": 23,
+        "modelName": "01-ai/yi-large"
+      },
+      {
+        "siteId": 23,
+        "modelName": "abacusai/dracarys-llama-3.1-70b-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "adept/fuyu-8b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "ai21labs/jamba-1.5-large-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "aisingapore/sea-lion-7b-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "baai/bge-m3"
+      },
+      {
+        "siteId": 23,
+        "modelName": "bigcode/starcoder2-15b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "bytedance/seed-oss-36b-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "databricks/dbrx-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "deepseek-ai/deepseek-coder-6.7b-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "deepseek-ai/deepseek-v4-flash"
+      },
+      {
+        "siteId": 23,
+        "modelName": "deepseek-ai/deepseek-v4-pro"
+      },
+      {
+        "siteId": 23,
+        "modelName": "deepseek-chat"
+      },
+      {
+        "siteId": 23,
+        "modelName": "deepseek-reasoner"
+      },
+      {
+        "siteId": 23,
+        "modelName": "gemini-1.5-pro"
+      },
+      {
+        "siteId": 23,
+        "modelName": "google/codegemma-1.1-7b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "google/codegemma-7b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "google/deplot"
+      },
+      {
+        "siteId": 23,
+        "modelName": "google/diffusiongemma-26b-a4b-it"
+      },
+      {
+        "siteId": 23,
+        "modelName": "google/gemma-2-2b-it"
+      },
+      {
+        "siteId": 23,
+        "modelName": "google/gemma-2b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "google/gemma-3-12b-it"
+      },
+      {
+        "siteId": 23,
+        "modelName": "google/gemma-3-4b-it"
+      },
+      {
+        "siteId": 23,
+        "modelName": "google/gemma-3n-e2b-it"
+      },
+      {
+        "siteId": 23,
+        "modelName": "google/gemma-3n-e4b-it"
+      },
+      {
+        "siteId": 23,
+        "modelName": "google/gemma-4-31b-it"
+      },
+      {
+        "siteId": 23,
+        "modelName": "google/recurrentgemma-2b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "grok-4.20-0309-console"
+      },
+      {
+        "siteId": 23,
+        "modelName": "grok-4.20-0309-non-reasoning"
+      },
+      {
+        "siteId": 23,
+        "modelName": "grok-4.20-0309-non-reasoning-console"
+      },
+      {
+        "siteId": 23,
+        "modelName": "grok-4.20-0309-reasoning-console"
+      },
+      {
+        "siteId": 23,
+        "modelName": "grok-4.20-multi-agent-console"
+      },
+      {
+        "siteId": 23,
+        "modelName": "grok-4.20-multi-agent-high"
+      },
+      {
+        "siteId": 23,
+        "modelName": "grok-4.20-multi-agent-low"
+      },
+      {
+        "siteId": 23,
+        "modelName": "grok-4.20-multi-agent-medium"
+      },
+      {
+        "siteId": 23,
+        "modelName": "grok-4.20-multi-agent-xhigh"
+      },
+      {
+        "siteId": 23,
+        "modelName": "grok-4.3-console"
+      },
+      {
+        "siteId": 23,
+        "modelName": "grok-4.3-high"
+      },
+      {
+        "siteId": 23,
+        "modelName": "grok-4.3-low"
+      },
+      {
+        "siteId": 23,
+        "modelName": "grok-4.3-medium"
+      },
+      {
+        "siteId": 23,
+        "modelName": "grok-4.5"
+      },
+      {
+        "siteId": 23,
+        "modelName": "grok-build-console"
+      },
+      {
+        "siteId": 23,
+        "modelName": "grok-imagine-image-lite"
+      },
+      {
+        "siteId": 23,
+        "modelName": "ibm/granite-3.0-3b-a800m-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "ibm/granite-3.0-8b-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "ibm/granite-34b-code-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "ibm/granite-8b-code-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "meta/codellama-70b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "meta/llama-3.1-70b-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "meta/llama-3.1-8b-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "meta/llama-3.2-11b-vision-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "meta/llama-3.2-1b-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "meta/llama-3.2-3b-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "meta/llama-3.2-90b-vision-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "meta/llama-3.3-70b-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "meta/llama-4-maverick-17b-128e-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "meta/llama-guard-4-12b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "meta/llama2-70b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "microsoft/kosmos-2"
+      },
+      {
+        "siteId": 23,
+        "modelName": "microsoft/phi-3-vision-128k-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "microsoft/phi-3.5-moe-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "minimaxai/minimax-m2.7"
+      },
+      {
+        "siteId": 23,
+        "modelName": "minimaxai/minimax-m3"
+      },
+      {
+        "siteId": 23,
+        "modelName": "mistralai/codestral-22b-instruct-v0.1"
+      },
+      {
+        "siteId": 23,
+        "modelName": "mistralai/ministral-14b-instruct-2512"
+      },
+      {
+        "siteId": 23,
+        "modelName": "mistralai/mistral-7b-instruct-v0.3"
+      },
+      {
+        "siteId": 23,
+        "modelName": "mistralai/mistral-large"
+      },
+      {
+        "siteId": 23,
+        "modelName": "mistralai/mistral-large-2-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "mistralai/mistral-large-3-675b-instruct-2512"
+      },
+      {
+        "siteId": 23,
+        "modelName": "mistralai/mistral-medium-3.5-128b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "mistralai/mistral-nemotron"
+      },
+      {
+        "siteId": 23,
+        "modelName": "mistralai/mistral-small-4-119b-2603"
+      },
+      {
+        "siteId": 23,
+        "modelName": "mistralai/mixtral-8x22b-v0.1"
+      },
+      {
+        "siteId": 23,
+        "modelName": "mistralai/mixtral-8x7b-instruct-v0.1"
+      },
+      {
+        "siteId": 23,
+        "modelName": "moonshotai/kimi-k2.6"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nv-mistralai/mistral-nemo-12b-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/ai-synthetic-video-detector"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/cosmos-reason2-8b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/embed-qa-4"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/gliner-pii"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/ising-calibration-1-35b-a3b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/llama-3.1-nemoguard-8b-content-safety"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/llama-3.1-nemoguard-8b-topic-control"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/llama-3.1-nemotron-51b-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/llama-3.1-nemotron-70b-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/llama-3.1-nemotron-nano-8b-v1"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/llama-3.1-nemotron-nano-vl-8b-v1"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/llama-3.1-nemotron-safety-guard-8b-v3"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/llama-3.1-nemotron-ultra-253b-v1"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/llama-3.2-nv-embedqa-1b-v1"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/llama-3.3-nemotron-super-49b-v1"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/llama-3.3-nemotron-super-49b-v1.5"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/llama-nemotron-embed-1b-v2"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/llama-nemotron-embed-vl-1b-v2"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/llama3-chatqa-1.5-70b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/mistral-nemo-minitron-8b-8k-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/nemoretriever-parse"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/nemotron-3-embed-1b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/nemotron-3-nano-30b-a3b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/nemotron-3-super-120b-a12b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/nemotron-3-ultra-550b-a55b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/nemotron-3.5-content-safety"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/nemotron-4-340b-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/nemotron-4-340b-reward"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/nemotron-mini-4b-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/nemotron-nano-12b-v2-vl"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/nemotron-nano-3-30b-a3b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/nemotron-parse"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/neva-22b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/nv-embed-v1"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/nv-embedcode-7b-v1"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/nv-embedqa-e5-v5"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/nv-embedqa-mistral-7b-v2"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/nvclip"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/nvidia-nemotron-nano-9b-v2"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/riva-translate-4b-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/riva-translate-4b-instruct-v1.1"
+      },
+      {
+        "siteId": 23,
+        "modelName": "nvidia/vila"
+      },
+      {
+        "siteId": 23,
+        "modelName": "openai/gpt-oss-120b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "openai/gpt-oss-20b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "poolside/laguna-xs-2.1"
+      },
+      {
+        "siteId": 23,
+        "modelName": "qwen/qwen3-next-80b-a3b-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "qwen/qwen3.5-122b-a10b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "qwen/qwen3.5-397b-a17b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "sarvamai/sarvam-m"
+      },
+      {
+        "siteId": 23,
+        "modelName": "snowflake/arctic-embed-l"
+      },
+      {
+        "siteId": 23,
+        "modelName": "stepfun-ai/step-3.5-flash"
+      },
+      {
+        "siteId": 23,
+        "modelName": "stepfun-ai/step-3.7-flash"
+      },
+      {
+        "siteId": 23,
+        "modelName": "stockmark/stockmark-2-100b-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "thinkingmachines/inkling"
+      },
+      {
+        "siteId": 23,
+        "modelName": "upstage/solar-10.7b-instruct"
+      },
+      {
+        "siteId": 23,
+        "modelName": "writer/palmyra-creative-122b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "writer/palmyra-fin-70b-32k"
+      },
+      {
+        "siteId": 23,
+        "modelName": "writer/palmyra-med-70b"
+      },
+      {
+        "siteId": 23,
+        "modelName": "writer/palmyra-med-70b-32k"
+      },
+      {
+        "siteId": 23,
+        "modelName": "zyphra/zamba2-7b-instruct"
+      },
+      {
+        "siteId": 24,
+        "modelName": "[antig]claude-opus-4-6"
+      },
+      {
+        "siteId": 24,
+        "modelName": "[antig]claude-opus-4-6-thinking"
+      },
+      {
+        "siteId": 24,
+        "modelName": "[antig]claude-sonnet-4-6"
+      },
+      {
+        "siteId": 24,
+        "modelName": "[free]kimi-k2.7"
+      },
+      {
+        "siteId": 24,
+        "modelName": "[free]minimax-m3"
+      },
+      {
+        "siteId": 24,
+        "modelName": "[k]claude-opus-4-6"
+      },
+      {
+        "siteId": 24,
+        "modelName": "[k]claude-opus-4-6-thinking"
+      },
+      {
+        "siteId": 24,
+        "modelName": "[k]claude-opus-4-7"
+      },
+      {
+        "siteId": 24,
+        "modelName": "[k]claude-opus-4-7-thinking"
+      },
+      {
+        "siteId": 24,
+        "modelName": "[k]claude-opus-4-8"
+      },
+      {
+        "siteId": 24,
+        "modelName": "[qcli]gemini-2.5-pro"
+      },
+      {
+        "siteId": 24,
+        "modelName": "[qcli]gemini-2.5-pro-search"
+      },
+      {
+        "siteId": 24,
+        "modelName": "[qcli]gemini-3.1-pro-preview"
+      },
+      {
+        "siteId": 24,
+        "modelName": "[qcli]gemini-3.1-pro-preview-search"
+      },
+      {
+        "siteId": 24,
+        "modelName": "[qcli]gemini-3.5-flash"
+      },
+      {
+        "siteId": 24,
+        "modelName": "[次anti]claude-opus-4-6"
+      },
+      {
+        "siteId": 24,
+        "modelName": "[次anti]claude-opus-4-6-thinking"
+      },
+      {
+        "siteId": 24,
+        "modelName": "[次anti]claude-sonnet-4-6"
+      },
+      {
+        "siteId": 24,
+        "modelName": "[次anti]claude-sonnet-4-6-thinking"
+      },
+      {
+        "siteId": 24,
+        "modelName": "claude-haiku-4-5"
+      },
+      {
+        "siteId": 24,
+        "modelName": "claude-haiku-4-5-20251001"
+      },
+      {
+        "siteId": 24,
+        "modelName": "claude-opus-4-6"
+      },
+      {
+        "siteId": 24,
+        "modelName": "claude-opus-4-7"
+      },
+      {
+        "siteId": 24,
+        "modelName": "claude-opus-4-8"
+      },
+      {
+        "siteId": 24,
+        "modelName": "claude-sonnet-4-6"
+      },
+      {
+        "siteId": 24,
+        "modelName": "claude-sonnet-5"
+      },
+      {
+        "siteId": 24,
+        "modelName": "codex-auto-review"
+      },
+      {
+        "siteId": 24,
+        "modelName": "deepseek-v4-flash"
+      },
+      {
+        "siteId": 24,
+        "modelName": "deepseek-v4-pro"
+      },
+      {
+        "siteId": 24,
+        "modelName": "gemini-2.5-flash"
+      },
+      {
+        "siteId": 24,
+        "modelName": "gemini-2.5-pro"
+      },
+      {
+        "siteId": 24,
+        "modelName": "gemini-3.1-pro-preview"
+      },
+      {
+        "siteId": 24,
+        "modelName": "gemini-3.5-flash"
+      },
+      {
+        "siteId": 24,
+        "modelName": "glm-5.2"
+      },
+      {
+        "siteId": 24,
+        "modelName": "gpt-5.4"
+      },
+      {
+        "siteId": 24,
+        "modelName": "gpt-5.4-mini"
+      },
+      {
+        "siteId": 24,
+        "modelName": "gpt-5.5"
+      },
+      {
+        "siteId": 24,
+        "modelName": "gpt-5.6-luna"
+      },
+      {
+        "siteId": 24,
+        "modelName": "gpt-5.6-sol"
+      },
+      {
+        "siteId": 24,
+        "modelName": "gpt-5.6-terra"
+      },
+      {
+        "siteId": 24,
+        "modelName": "gpt-image-2"
+      },
+      {
+        "siteId": 24,
+        "modelName": "grok-4.5"
+      },
+      {
+        "siteId": 24,
+        "modelName": "kimi-k2.7"
+      },
+      {
+        "siteId": 24,
+        "modelName": "minimax-m3"
+      },
+      {
+        "siteId": 24,
+        "modelName": "nai-diffusion-4-5-full-1024x1024"
+      },
+      {
+        "siteId": 24,
+        "modelName": "nai-diffusion-4-5-full-1216x832"
+      },
+      {
+        "siteId": 24,
+        "modelName": "nai-diffusion-4-5-full-832x1216"
+      },
+      {
+        "siteId": 29,
+        "modelName": "agnes-1.5-flash"
+      },
+      {
+        "siteId": 29,
+        "modelName": "claude-fable-5"
+      },
+      {
+        "siteId": 29,
+        "modelName": "claude-haiku-4-5"
+      },
+      {
+        "siteId": 29,
+        "modelName": "claude-haiku-4-5-20251001"
+      },
+      {
+        "siteId": 29,
+        "modelName": "claude-haiku-4-5-20251001-thinking"
+      },
+      {
+        "siteId": 29,
+        "modelName": "claude-haiku-4-5-thinking"
+      },
+      {
+        "siteId": 29,
+        "modelName": "claude-opus-4-5-20251101"
+      },
+      {
+        "siteId": 29,
+        "modelName": "claude-opus-4-6"
+      },
+      {
+        "siteId": 29,
+        "modelName": "claude-opus-4-6-thinking"
+      },
+      {
+        "siteId": 29,
+        "modelName": "claude-opus-4-7"
+      },
+      {
+        "siteId": 29,
+        "modelName": "claude-opus-4-7-thinking"
+      },
+      {
+        "siteId": 29,
+        "modelName": "claude-opus-4-8"
+      },
+      {
+        "siteId": 29,
+        "modelName": "claude-opus-4-8-thinking"
+      },
+      {
+        "siteId": 29,
+        "modelName": "claude-sonnet-4-5-20250929"
+      },
+      {
+        "siteId": 29,
+        "modelName": "claude-sonnet-4-6"
+      },
+      {
+        "siteId": 29,
+        "modelName": "claude-sonnet-4-6-thinking"
+      },
+      {
+        "siteId": 29,
+        "modelName": "claude-sonnet-5"
+      },
+      {
+        "siteId": 29,
+        "modelName": "codex-gpt-image-2"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gemini-2.5-flash"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gemini-2.5-flash-lite"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gemini-2.5-pro"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gemini-3-flash-agent"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gemini-3-flash-preview"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gemini-3-pro-high"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gemini-3-pro-low"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gemini-3.1-flash-image"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gemini-3.1-flash-lite"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gemini-3.1-flash-lite-preview"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gemini-3.1-pro"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gemini-3.1-pro-low"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gemini-3.5-flash"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gemini-3.5-flash-low"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gemini-pro-agent"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gpt-4o-audio-preview"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gpt-4o-realtime-preview"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gpt-5-3-mini"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gpt-5-5-mini"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gpt-5-mini"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gpt-5.3-codex-spark"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gpt-5.4-mini"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gpt-5.4-openai-compact"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gpt-5.5-openai-compact"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gpt-5.6-luna"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gpt-5.6-terra"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gpt-image-1"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gpt-image-1.5"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gpt-image-2"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gpt-image-2-adobe-4k"
+      },
+      {
+        "siteId": 29,
+        "modelName": "gpt-image-2-max"
+      },
+      {
+        "siteId": 29,
+        "modelName": "grok-3-mini"
+      },
+      {
+        "siteId": 29,
+        "modelName": "grok-3-mini-fast"
+      },
+      {
+        "siteId": 29,
+        "modelName": "grok-4.20-0309-reasoning"
+      },
+      {
+        "siteId": 29,
+        "modelName": "grok-4.20-multi-agent-0309"
+      },
+      {
+        "siteId": 29,
+        "modelName": "grok-4.3"
+      },
+      {
+        "siteId": 29,
+        "modelName": "grok-4.5"
+      },
+      {
+        "siteId": 29,
+        "modelName": "grok-build-0.1"
+      },
+      {
+        "siteId": 29,
+        "modelName": "grok-imagine-image"
+      },
+      {
+        "siteId": 29,
+        "modelName": "grok-imagine-image-quality"
+      },
+      {
+        "siteId": 29,
+        "modelName": "mimo-v2.5-asr"
+      },
+      {
+        "siteId": 29,
+        "modelName": "mimo-v2.5-tts"
+      },
+      {
+        "siteId": 29,
+        "modelName": "mimo-v2.5-tts-voiceclone"
+      },
+      {
+        "siteId": 29,
+        "modelName": "mimo-v2.5-tts-voicedesign"
+      },
+      {
+        "siteId": 29,
+        "modelName": "nano-banana-2"
+      },
+      {
+        "siteId": 30,
+        "modelName": "claude-fable-5"
+      },
+      {
+        "siteId": 30,
+        "modelName": "claude-haiku-4-5"
+      },
+      {
+        "siteId": 30,
+        "modelName": "claude-haiku-4-5-20251001"
+      },
+      {
+        "siteId": 30,
+        "modelName": "claude-opus-4-5-20251101"
+      },
+      {
+        "siteId": 30,
+        "modelName": "claude-opus-4-5-20251101-thinking"
+      },
+      {
+        "siteId": 30,
+        "modelName": "claude-opus-4-6"
+      },
+      {
+        "siteId": 30,
+        "modelName": "claude-opus-4-8"
+      },
+      {
+        "siteId": 30,
+        "modelName": "claude-sonnet-4-5"
+      },
+      {
+        "siteId": 30,
+        "modelName": "claude-sonnet-4-5-20250929"
+      },
+      {
+        "siteId": 30,
+        "modelName": "claude-sonnet-4-5-20250929-thinking"
+      },
+      {
+        "siteId": 30,
+        "modelName": "claude-sonnet-4-6"
+      },
+      {
+        "siteId": 30,
+        "modelName": "claude-sonnet-5"
+      },
+      {
+        "siteId": 30,
+        "modelName": "codex-auto-review"
+      },
+      {
+        "siteId": 30,
+        "modelName": "gemini-3.1-flash-lite"
+      },
+      {
+        "siteId": 30,
+        "modelName": "gemini-3.1-flash-lite-thinking"
+      },
+      {
+        "siteId": 30,
+        "modelName": "gemini-3.1-pro-thinking"
+      },
+      {
+        "siteId": 30,
+        "modelName": "gemini-3.5-flash-thinking"
+      },
+      {
+        "siteId": 30,
+        "modelName": "gpt-5.4-mini"
+      },
+      {
+        "siteId": 30,
+        "modelName": "gpt-5.5-openai-compact"
+      },
+      {
+        "siteId": 31,
+        "modelName": "grok-4.20-0309-non-reasoning"
+      },
+      {
+        "siteId": 31,
+        "modelName": "grok-4.20-0309-reasoning"
+      },
+      {
+        "siteId": 31,
+        "modelName": "grok-4.20-multi-agent-0309"
+      },
+      {
+        "siteId": 31,
+        "modelName": "grok-4.3"
+      },
+      {
+        "siteId": 31,
+        "modelName": "grok-imagine-image"
+      },
+      {
+        "siteId": 31,
+        "modelName": "grok-imagine-image-quality"
+      },
+      {
+        "siteId": 31,
+        "modelName": "grok-imagine-video"
+      },
+      {
+        "siteId": 31,
+        "modelName": "grok-imagine-video-1.5-preview"
+      },
+      {
+        "siteId": 39,
+        "modelName": "gpt-5.4-mini"
+      },
+      {
+        "siteId": 40,
+        "modelName": "GLM4.7"
+      },
+      {
+        "siteId": 40,
+        "modelName": "Minimax-m2.7"
+      },
+      {
+        "siteId": 40,
+        "modelName": "Qwen--3.5"
+      },
+      {
+        "siteId": 40,
+        "modelName": "Step-3.5-flash"
+      },
+      {
+        "siteId": 41,
+        "modelName": "deepseek-v4-flash"
+      },
+      {
+        "siteId": 41,
+        "modelName": "deepseek-v4-pro"
+      },
+      {
+        "siteId": 41,
+        "modelName": "gpt-5.6-sol-openai-compact"
+      },
+      {
+        "siteId": 41,
+        "modelName": "gpt-image-1"
+      },
+      {
+        "siteId": 41,
+        "modelName": "gpt-image-1.5"
+      },
+      {
+        "siteId": 41,
+        "modelName": "gpt-image-2"
+      },
+      {
+        "siteId": 41,
+        "modelName": "mimo-v2.5"
+      },
+      {
+        "siteId": 41,
+        "modelName": "mimo-v2.5-pro"
+      }
+    ],
+    "manualModels": [],
+    "downstreamApiKeys": [
+      {
+        "name": "linglo",
+        "key": "sk-e6392b7086b7739b3e1abddaac390b83d5f6ce7ec9ce21f04d08e3bd98816cdb",
+        "description": null,
+        "groupName": null,
+        "tags": null,
+        "enabled": true,
+        "expiresAt": null,
+        "maxCost": null,
+        "maxRequests": null,
+        "supportedModels": "[\"agnes-2.0-flash\",\"claude\",\"gemini\",\"gemini-2.0-flash\",\"gemini-embedding-exp-03-07\",\"gpt\",\"gpt-5-3\",\"gpt-5-5\",\"gpt-5.4\",\"gpt-5.4-mini\",\"gpt-5.5\",\"gpt-5.6-luna\",\"gpt-5.6-sol\",\"gpt-5.6-terra\",\"grok-4.20-fast\",\"grok-4.3-fast\",\"metai\",\"z-ai/glm-5.2\"]",
+        "allowedRouteIds": null,
+        "siteWeightMultipliers": null,
+        "excludedSiteIds": null,
+        "excludedCredentialRefs": null
+      }
+    ]
+  },
+  "preferences": {
+    "settings": [
+      {
+        "key": "default_site_seed_v1",
+        "value": true
+      },
+      {
+        "key": "update_center_runtime_state_v1",
+        "value": {
+          "lastCheckedAt": "2026-07-19 01:00:11",
+          "lastCheckError": null,
+          "lastResolvedSource": null,
+          "lastResolvedDisplayVersion": null,
+          "lastResolvedCandidateKey": null,
+          "lastNotifiedCandidateKey": null,
+          "lastNotifiedAt": null,
+          "statusSnapshot": {
+            "githubRelease": {
+              "source": "github-release",
+              "rawVersion": "v1.3.0",
+              "normalizedVersion": "1.3.0",
+              "url": "https://github.com/cita-777/metapi/releases/tag/v1.3.0",
+              "tagName": "v1.3.0",
+              "digest": null,
+              "displayVersion": "1.3.0",
+              "publishedAt": "2026-04-06T07:55:55Z"
+            },
+            "dockerHubTag": {
+              "source": "docker-hub-tag",
+              "rawVersion": "latest",
+              "normalizedVersion": "latest",
+              "url": null,
+              "tagName": "latest",
+              "digest": "sha256:d6118229e7d2423262b253a419baf18c22f1682a7bbc7d3c756d090aa2b295c6",
+              "displayVersion": "latest @ sha256:d6118229e7d2",
+              "publishedAt": "2026-06-24T02:16:27.626697Z"
+            },
+            "dockerHubRecentTags": [
+              {
+                "source": "docker-hub-tag",
+                "rawVersion": "sha-41767a6",
+                "normalizedVersion": "sha-41767a6",
+                "url": null,
+                "tagName": "sha-41767a6",
+                "digest": "sha256:d6118229e7d2423262b253a419baf18c22f1682a7bbc7d3c756d090aa2b295c6",
+                "displayVersion": "sha-41767a6 @ sha256:d6118229e7d2",
+                "publishedAt": "2026-06-24T02:16:29.673703Z"
+              },
+              {
+                "source": "docker-hub-tag",
+                "rawVersion": "sha-41767a6-armv7",
+                "normalizedVersion": "sha-41767a6-armv7",
+                "url": null,
+                "tagName": "sha-41767a6-armv7",
+                "digest": "sha256:92e2fbf38cc30fae942c5fe7375e3ac9905e365cba81e510d0cb93473d8b25d8",
+                "displayVersion": "sha-41767a6-armv7 @ sha256:92e2fbf38cc3",
+                "publishedAt": "2026-06-24T02:14:56.292944Z"
+              },
+              {
+                "source": "docker-hub-tag",
+                "rawVersion": "sha-41767a6-arm64",
+                "normalizedVersion": "sha-41767a6-arm64",
+                "url": null,
+                "tagName": "sha-41767a6-arm64",
+                "digest": "sha256:d4b0269c4c5b8364214ccc81137703a057418ac99057544655ea08ce3439558e",
+                "displayVersion": "sha-41767a6-arm64 @ sha256:d4b0269c4c5b",
+                "publishedAt": "2026-06-24T02:08:54.005043Z"
+              },
+              {
+                "source": "docker-hub-tag",
+                "rawVersion": "sha-41767a6-amd64",
+                "normalizedVersion": "sha-41767a6-amd64",
+                "url": null,
+                "tagName": "sha-41767a6-amd64",
+                "digest": "sha256:ff87547a63b4b7547ae888a47e926e4304806f87c7ea9923f26f36559af78a7e",
+                "displayVersion": "sha-41767a6-amd64 @ sha256:ff87547a63b4",
+                "publishedAt": "2026-06-24T02:08:09.582972Z"
+              },
+              {
+                "source": "docker-hub-tag",
+                "rawVersion": "sha-c308a3e",
+                "normalizedVersion": "sha-c308a3e",
+                "url": null,
+                "tagName": "sha-c308a3e",
+                "digest": "sha256:d29e74b18ce0734555c2088f1f6638e301a7fc01873ff979961ff8a1ac618da8",
+                "displayVersion": "sha-c308a3e @ sha256:d29e74b18ce0",
+                "publishedAt": "2026-05-17T06:17:27.181342Z"
+              }
+            ],
+            "helper": {
+              "ok": false,
+              "releaseName": null,
+              "namespace": null,
+              "revision": null,
+              "imageRepository": null,
+              "imageTag": null,
+              "imageDigest": null,
+              "healthy": false,
+              "history": []
+            }
+          }
+        }
+      },
+      {
+        "key": "token_router_site_runtime_health_v1",
+        "value": {
+          "version": 1,
+          "savedAtMs": 1784352298166,
+          "globalBySiteId": {
+            "15": {
+              "penaltyScore": 0,
+              "latencyEmaMs": 5104,
+              "transientFailureStreak": 0,
+              "lastTransientFailureAtMs": null,
+              "recentSuccessCount": 1,
+              "recentFailureCount": 0,
+              "recentWindowUpdatedAtMs": 1784352297663,
+              "breakerLevel": 0,
+              "breakerUntilMs": null,
+              "lastUpdatedAtMs": 1784352297663,
+              "lastFailureAtMs": null,
+              "lastSuccessAtMs": 1784352297663
+            },
+            "22": {
+              "penaltyScore": 0,
+              "latencyEmaMs": 6148,
+              "transientFailureStreak": 0,
+              "lastTransientFailureAtMs": null,
+              "recentSuccessCount": 1,
+              "recentFailureCount": 0,
+              "recentWindowUpdatedAtMs": 1784158736199,
+              "breakerLevel": 0,
+              "breakerUntilMs": null,
+              "lastUpdatedAtMs": 1784158736199,
+              "lastFailureAtMs": null,
+              "lastSuccessAtMs": 1784158736199
+            }
+          },
+          "modelBySiteId": {
+            "15": {
+              "gpt-5.4": {
+                "penaltyScore": 0,
+                "latencyEmaMs": 6046,
+                "transientFailureStreak": 0,
+                "lastTransientFailureAtMs": null,
+                "recentSuccessCount": 1,
+                "recentFailureCount": 0,
+                "recentWindowUpdatedAtMs": 1784159216141,
+                "breakerLevel": 0,
+                "breakerUntilMs": null,
+                "lastUpdatedAtMs": 1784159216141,
+                "lastFailureAtMs": null,
+                "lastSuccessAtMs": 1784159216141
+              },
+              "gemini-3.1-pro": {
+                "penaltyScore": 0,
+                "latencyEmaMs": 2906,
+                "transientFailureStreak": 0,
+                "lastTransientFailureAtMs": null,
+                "recentSuccessCount": 1,
+                "recentFailureCount": 0,
+                "recentWindowUpdatedAtMs": 1784352297663,
+                "breakerLevel": 0,
+                "breakerUntilMs": null,
+                "lastUpdatedAtMs": 1784352297663,
+                "lastFailureAtMs": null,
+                "lastSuccessAtMs": 1784352297663
+              }
+            },
+            "22": {
+              "gpt-5.6-sol": {
+                "penaltyScore": 0,
+                "latencyEmaMs": 6148,
+                "transientFailureStreak": 0,
+                "lastTransientFailureAtMs": null,
+                "recentSuccessCount": 1,
+                "recentFailureCount": 0,
+                "recentWindowUpdatedAtMs": 1784158736199,
+                "breakerLevel": 0,
+                "breakerUntilMs": null,
+                "lastUpdatedAtMs": 1784158736199,
+                "lastFailureAtMs": null,
+                "lastSuccessAtMs": 1784158736199
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "checkin_cron",
+        "value": "18 6 * * *"
+      },
+      {
+        "key": "checkin_schedule_mode",
+        "value": "cron"
+      },
+      {
+        "key": "checkin_interval_hours",
+        "value": 6
+      },
+      {
+        "key": "balance_refresh_cron",
+        "value": "0 * * * *"
+      },
+      {
+        "key": "log_cleanup_cron",
+        "value": "0 6 * * *"
+      },
+      {
+        "key": "log_cleanup_usage_logs_enabled",
+        "value": true
+      },
+      {
+        "key": "log_cleanup_program_logs_enabled",
+        "value": false
+      },
+      {
+        "key": "log_cleanup_retention_days",
+        "value": 30
+      },
+      {
+        "key": "disable_cross_protocol_fallback",
+        "value": false
+      },
+      {
+        "key": "routing_weights",
+        "value": {
+          "baseWeightFactor": 0.7,
+          "valueScoreFactor": 0.3,
+          "costWeight": 0.2,
+          "balanceWeight": 0.6,
+          "usageWeight": 0.2
+        }
+      },
+      {
+        "key": "routing_fallback_unit_cost",
+        "value": 1
+      },
+      {
+        "key": "proxy_first_byte_timeout_sec",
+        "value": 0
+      },
+      {
+        "key": "token_router_failure_cooldown_max_sec",
+        "value": 72000
+      },
+      {
+        "key": "codex_upstream_websocket_enabled",
+        "value": false
+      },
+      {
+        "key": "responses_compact_fallback_to_responses_enabled",
+        "value": false
+      },
+      {
+        "key": "proxy_session_channel_concurrency_limit",
+        "value": 5
+      },
+      {
+        "key": "proxy_session_channel_queue_wait_ms",
+        "value": 1500
+      },
+      {
+        "key": "proxy_error_keywords",
+        "value": []
+      },
+      {
+        "key": "proxy_empty_content_fail_enabled",
+        "value": true
+      },
+      {
+        "key": "model_availability_probe_enabled",
+        "value": false
+      }
+    ]
+  }
+}
